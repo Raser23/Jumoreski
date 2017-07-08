@@ -16,3 +16,22 @@ for i in onlyfiles:
     text = prettify(f.read())
     aneks.append(text)
 
+from random import choice
+
+def get_random():
+    return choice(aneks)
+
+
+from markov.markov_model import make_markov_model
+
+
+data = []
+for i in aneks:
+    data += ("#START# "+i+" #END#").split(" ")
+
+model = make_markov_model(data)
+from markov.sentence_generator import generate_random_sentence
+
+def generate_anek():
+    return generate_random_sentence(-1, model)
+

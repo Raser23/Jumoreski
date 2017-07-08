@@ -16,6 +16,16 @@ server = Flask(__name__)
 def start(message):
     bot.reply_to(message, 'Hello, ' + message.from_user.first_name)
 
+
+@bot.message_handler(commands=['anek'])
+def send_anek(message):
+    bot.send_message(message.chat.id, loadAneks.get_random())
+
+@bot.message_handler(commands=['generate'])
+def generate(message):
+    bot.reply_to(message, loadAneks.generate_anek())
+
+
 @bot.message_handler(content_types=["text"])
 def send_anek(message):
     bot.send_message(message.chat.id, random.choice(loadAneks.aneks))

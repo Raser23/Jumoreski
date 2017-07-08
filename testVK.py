@@ -1,9 +1,19 @@
 import vk
 import config
-session = vk.AuthSession(access_token=config.AT)
+session = vk.AuthSession(access_token=input())
 vk_api = vk.API(session)
 
 count = 0
+
+def prettify(str):
+    while "  " in str:
+        str.replace("  "," ")
+    if(str[0] == " "):
+        str = str[1:]
+    if(str[-1] == " "):
+        str = str[:-1]
+    return  str
+
 while(True):
     try:
         print(count)
