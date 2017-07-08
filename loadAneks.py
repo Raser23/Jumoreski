@@ -30,14 +30,17 @@ for text in aneks:
     #if("шляпу" in text.split(" ")):
     anek_data = []
     words = text.split(" ")
-
+    anek_data.append("#START#")
     for i in range(0,len(words)-1,2):
         anek_data.append(words[i] +" "+ words[i+1])
+    anek_data.append("#END#")
+    anek_data.append("#START#")
+
     for i in range(1,len(words)-1,2):
         anek_data.append(words[i] +" "+ words[i+1])
+    anek_data.append("#END#")
 
-
-    data += (["#START#"] + anek_data + ["#END#"])
+    data +=  anek_data
 
 #print(data)
 model1 = make_markov_model(data)
