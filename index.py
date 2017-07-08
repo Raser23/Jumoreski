@@ -23,7 +23,7 @@ def send_anek(message):
 
 @bot.message_handler(commands=['generate'])
 def generate(message):
-    bot.reply_to(message, loadAneks.generate_anek())
+    bot.send_message(message.chat.id, loadAneks.generate_anek())
 
 
 @bot.message_handler(content_types=["text"])
