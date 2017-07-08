@@ -10,8 +10,8 @@ def prettify(str):
 
 aneks = []
 onlyfiles = [f for f in listdir(config.path) if isfile(join(config.path, f))]
-for i in onlyfiles:
-    path = config.path+i
+for text in onlyfiles:
+    path = config.path + text
     f = open(path, 'r')
     text = prettify(f.read())
     aneks.append(text)
@@ -26,13 +26,36 @@ from markov.markov_model import make_markov_model
 
 
 data = []
-for i in aneks:
-    if("шляпу" in i.split(" ")):
-        data += ("#START# "+i+" #END#").split(" ")
+for text in aneks:
+    #if("шляпу" in text.split(" ")):
+    anek_data = []
+    words = text.split(" ")
 
-model = make_markov_model(data)
+    for i in range(0,len(words)-1,2):
+        anek_data.append(words[i] +" "+ words[i+1])
+    for i in range(1,len(words)-1,2):
+        anek_data.append(words[i] +" "+ words[i+1])
+
+
+    data += (["#START#"] + anek_data + ["#END#"])
+
+#print(data)
+model1 = make_markov_model(data)
+data = []
+for text in aneks:
+    if("шляпу" not in text.split(" ")):
+        continue
+
+    data += (["#START#"] + text.split(" ") + ["#END#"])
+
+model2 = make_markov_model(data)
+
 from markov.sentence_generator import generate_random_sentence
 
-def generate_anek():
-    return generate_random_sentence(-1, model)
+def generate_anek1():
+    return generate_random_sentence(-1, model1)
+
+def generate_anek2():
+    return generate_random_sentence(-1, model2)
+
 

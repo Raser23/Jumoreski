@@ -21,10 +21,13 @@ def start(message):
 def send_anek(message):
     bot.send_message(message.chat.id, loadAneks.get_random())
 
-@bot.message_handler(commands=['generate'])
+@bot.message_handler(commands=['generate1'])
 def generate(message):
-    bot.send_message(message.chat.id, loadAneks.generate_anek())
+    bot.send_message(message.chat.id, loadAneks.generate_anek1())
 
+@bot.message_handler(commands=['generate2'])
+def generate(message):
+    bot.send_message(message.chat.id, loadAneks.generate_anek2())
 
 @bot.message_handler(content_types=["text"])
 def send_anek(message):
