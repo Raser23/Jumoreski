@@ -27,7 +27,8 @@ from markov.markov_model import make_markov_model
 
 data = []
 for i in aneks:
-    data += ("#START# "+i+" #END#").split(" ")
+    if("шляпу" in i.split(" ")):
+        data += ("#START# "+i+" #END#").split(" ")
 
 model = make_markov_model(data)
 from markov.sentence_generator import generate_random_sentence

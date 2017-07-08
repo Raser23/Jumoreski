@@ -16,7 +16,7 @@ class Dictogram(dict):
         # итерируемого набора данных
         for item in iterable:
             if item in self:
-                self[item] += 1
+                self[item] = ((self[item] **0.1)+1)**10
                 self.tokens += 1
             else:
                 self[item] = 1
