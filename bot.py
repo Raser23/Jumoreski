@@ -48,6 +48,6 @@ def webhook():
     bot.set_webhook(url=config.HOST +"/bot")
     return "!", 200
 
+webhook()
 server.run(host="0.0.0.0", port=os.environ.get('PORT', 5000))
 server = Flask(__name__)
-webhook()

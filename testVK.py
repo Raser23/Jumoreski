@@ -14,6 +14,8 @@ def prettify(str):
         str = str[:-1]
     return  str
 
+summary = open("text.txt","w")
+
 while(True):
     try:
         print(count)
@@ -24,6 +26,7 @@ while(True):
             text = post['text']
             f = open(config.path+str(count), 'w')
             f.write(text)
+            summary.write(text +"\n")
             count+=1
     except:
         continue
