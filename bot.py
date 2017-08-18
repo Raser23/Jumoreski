@@ -36,16 +36,16 @@ def debug(update):
     message = update.message
     chat = message.chat
     user = message.from_user
-    text = message.text
+    msg_text = message.text
 
-    print(message)
-    print(chat)
-    print(user)
-    print(text)
+    #print(message)
+    #print(chat)
+    #print(user)
+    #print(text)
 
     text = "Пользователь: "+str(user.first_name) +"\""+str(user.username)+"\""+ str(user.last_name)+"\n";
     text += "ID пользователя: " + str(user.id)+"\n";
-    text += "Текст: "+str(text)+"\n";
+    text += "Текст: "+str(msg_text)+"\n";
     text += "Тип беседы: "+str(chat.type);
     bot.send_message(config.DEBUGID,text)
 
