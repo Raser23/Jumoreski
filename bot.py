@@ -34,7 +34,12 @@ def send_anek(message):
 @server.route("/bot", methods=['POST'])
 def getMessage():
     updates = [telebot.types.Update.de_json(request.stream.read().decode("utf-8"))]
-    print(updates[0])
+    message =  updates[0]['message']
+    chat = message["chat"]
+    user = message['from_user']
+    print(message)
+    print(chat)
+    print(user)
     bot.process_new_updates(updates)
     return "ok", 200
 
