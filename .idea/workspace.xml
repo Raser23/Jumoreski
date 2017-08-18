@@ -41,8 +41,8 @@
       <file leaf-file-name="bot.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="21" column="44" lean-forward="false" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+            <state relative-caret-position="502">
+              <caret line="41" column="4" lean-forward="true" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
                 <element signature="e#247#310#0" expanded="false" />
@@ -50,7 +50,7 @@
                 <element signature="e#511#572#0" expanded="false" />
                 <element signature="e#646#707#0" expanded="false" />
                 <element signature="e#782#847#0" expanded="false" />
-                <element signature="e#1263#1348#0" expanded="false" />
+                <element signature="e#1256#1341#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -450,7 +450,14 @@
       <option name="project" value="LOCAL" />
       <updated>1503056137587</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Faster, better, stronger">
+      <created>1503056236610</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1503056236610</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -555,7 +562,7 @@
             <element signature="e#511#572#0" expanded="false" />
             <element signature="e#646#707#0" expanded="false" />
             <element signature="e#782#847#0" expanded="false" />
-            <element signature="e#1263#1348#0" expanded="false" />
+            <element signature="e#1256#1341#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -617,7 +624,7 @@
             <element signature="e#511#572#0" expanded="false" />
             <element signature="e#646#707#0" expanded="false" />
             <element signature="e#782#847#0" expanded="false" />
-            <element signature="e#1263#1348#0" expanded="false" />
+            <element signature="e#1256#1341#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -906,8 +913,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="21" column="44" lean-forward="false" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+        <state relative-caret-position="502">
+          <caret line="41" column="4" lean-forward="true" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
             <element signature="e#247#310#0" expanded="false" />
@@ -915,7 +922,7 @@
             <element signature="e#511#572#0" expanded="false" />
             <element signature="e#646#707#0" expanded="false" />
             <element signature="e#782#847#0" expanded="false" />
-            <element signature="e#1263#1348#0" expanded="false" />
+            <element signature="e#1256#1341#0" expanded="false" />
           </folding>
         </state>
       </provider>
