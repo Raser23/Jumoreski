@@ -15,17 +15,17 @@ server = Flask(__name__)
 def start(message):
     bot.reply_to(message, 'Hello, ' + message.from_user.first_name)
 
-@bot.message_handler(commands=['anek'])
+@bot.message_handler(commands=['anekdot'])
 def send_anek(message):
     bot.send_message(message.chat.id, loadAneks.get_random())
 
-@bot.message_handler(commands=['generate1'])
+@bot.message_handler(commands=['generate'])
 def generate(message):
     bot.send_message(message.chat.id, loadAneks.generate_anek1())
 
-@bot.message_handler(commands=['generate2'])
+@bot.message_handler(commands=['generate_short'])
 def generate(message):
-    bot.send_message(message.chat.id, loadAneks.generate_anek2())
+    bot.send_message(message.chat.id, loadAneks.generate_short())
 
 @bot.message_handler(content_types=["text"])
 def send_anek(message):

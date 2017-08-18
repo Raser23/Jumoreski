@@ -18,7 +18,10 @@ def generate_random_start(model):
     return random.choice(list(model.keys()))
 
 
-def generate_random_sentence(length, markov_model):
+def generate_random_sentence(length, markov_model, max_words = 500, epoch = 0):
+    if epoch > 10:
+        return "Я старался, но не смог сгенерировать анек"
+
     current_word = generate_random_start(markov_model)
     sentence = [current_word]
 
@@ -30,7 +33,12 @@ def generate_random_sentence(length, markov_model):
             sentence.append(current_word)
     else:
         count = 0
-        while sentence[-1] != "#END#" and count < 500:
+        while sentence[-1] != "#END#" :
+
+            if(count > max_words):
+                return generate_random_sentence(length,markov_model,max_words=max_words,epoch=epoch+1)
+
+
             count +=1
             current_dictogram = markov_model[current_word]
             random_weighted_word = current_dictogram.return_weighted_random_word()
