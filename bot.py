@@ -31,20 +31,31 @@ def generate(message):
 def send_anek(message):
     bot.send_message(message.chat.id, random.choice(loadAneks.aneks))
 
+
+def debug(update):
+    message = update.message
+    chat = message.chat
+    user = message.from_user
+    text = message.text
+
+    print(message)
+    print(chat)
+    print(user)
+    print(text)
+
+    text = "Пользователь: "+user.first_name +"\""+user.username+"\""+ user.last_name+"\n";
+    text += "ID пользователя: " + user.id+"\n";
+    text += "Текст: "+text+"\n";
+    text += "Тип беседы: "+chat.type;
+    bot.send_message(config.DEBUGID,text)
+
 @server.route("/bot", methods=['POST'])
 def getMessage():
     s = request.stream.read().decode("utf-8")
     #print(s)
     updates = [telebot.types.Update.de_json(s)]
-    message = updates[0].message
-    chat = message.chat
-    user = message.from_user
-    text = message.text
-    print(message)
-    print(chat)
-    print(user)
-    print(text)
-    id = chat.id
+    for update in updates:
+        debug(update)
 
     bot.process_new_updates(updates)
     return "ok", 200
