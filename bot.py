@@ -15,7 +15,6 @@ server = Flask(__name__)
 def start(message):
     bot.reply_to(message, 'Hello, ' + message.from_user.first_name)
 
-
 @bot.message_handler(commands=['anek'])
 def send_anek(message):
     bot.send_message(message.chat.id, loadAneks.get_random())
@@ -34,7 +33,9 @@ def send_anek(message):
 
 @server.route("/bot", methods=['POST'])
 def getMessage():
-    bot.process_new_updates([telebot.types.Update.de_json(request.stream.read().decode("utf-8"))])
+    updates = [telebot.types.Update.de_json(request.stream.read().decode("utf-8"))]
+    print(updates)
+    bot.process_new_updates(updates)
     return "!", 200
 
 @server.route("/")
