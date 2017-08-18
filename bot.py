@@ -1,14 +1,13 @@
-#import config
 import random
-#import telebot
 import loadAneks
-
-#bot = telebot.TeleBot(config.TOKEN)
-
 import config
 import telebot
 import os
 from flask import Flask, request
+
+import testVK
+
+
 bot = telebot.TeleBot(config.TOKEN)
 server = Flask(__name__)
 
@@ -33,17 +32,13 @@ def generate(message):
 def send_anek(message):
     bot.send_message(message.chat.id, random.choice(loadAneks.aneks))
 
-
-
 @server.route("/bot", methods=['POST'])
 def getMessage():
-    print("/bot")
     bot.process_new_updates([telebot.types.Update.de_json(request.stream.read().decode("utf-8"))])
     return "!", 200
 
 @server.route("/")
 def webhook():
-    print("/")
     bot.remove_webhook()
     bot.set_webhook(url=config.HOST +"/bot")
     return "!", 200

@@ -1,1 +1,0 @@
-— Если вам дать выбор между многолетним восстановлением России и эмиграцией — какой язык вы будете изучать? <br>— Pascal<br>— uses crt<br>var a: string;<br>begin<br> readln(a);<br> if a = "prachecnaya" <br> then writeln "huyachechnaya"<br>end.
