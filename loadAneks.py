@@ -59,6 +59,6 @@ def generate_anek1():
     return generate_random_sentence(-1, model1)
 
 def generate_short():
-    return generate_random_sentence(-1, model1,max_words=40)
+    return generate_random_sentence(-1, model1,max_words=20)
 
 
