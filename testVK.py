@@ -31,8 +31,6 @@ def UpdateAneks():
     while (True):
         try:
             current_posts = vk_api.wall.get(domain=config.domain, offset=count)[1:]
-            print(count)
-
             for post in current_posts:
                 if (count >= need_to_download):
                     break

@@ -34,9 +34,9 @@ def send_anek(message):
 @server.route("/bot", methods=['POST'])
 def getMessage():
     updates = [telebot.types.Update.de_json(request.stream.read().decode("utf-8"))]
-    print(updates)
+    print(updates[0])
     bot.process_new_updates(updates)
-    return "!", 200
+    return "ok", 200
 
 @server.route("/")
 def webhook():
