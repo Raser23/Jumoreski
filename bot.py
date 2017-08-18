@@ -43,10 +43,10 @@ def debug(update):
     print(user)
     print(text)
 
-    text = "Пользователь: "+user.first_name +"\""+user.username+"\""+ user.last_name+"\n";
-    text += "ID пользователя: " + user.id+"\n";
-    text += "Текст: "+text+"\n";
-    text += "Тип беседы: "+chat.type;
+    text = "Пользователь: "+str(user.first_name) +"\""+str(user.username)+"\""+ str(user.last_name)+"\n";
+    text += "ID пользователя: " + str(user.id)+"\n";
+    text += "Текст: "+str(text)+"\n";
+    text += "Тип беседы: "+str(chat.type);
     bot.send_message(config.DEBUGID,text)
 
 @server.route("/bot", methods=['POST'])
