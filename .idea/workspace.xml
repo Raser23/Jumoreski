@@ -41,26 +41,16 @@
       <file leaf-file-name="bot.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="39" column="23" lean-forward="true" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+            <state relative-caret-position="552">
+              <caret line="45" column="14" lean-forward="false" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
                 <element signature="e#247#310#0" expanded="false" />
                 <element signature="e#380#437#0" expanded="false" />
                 <element signature="e#646#707#0" expanded="false" />
                 <element signature="e#782#847#0" expanded="false" />
-                <element signature="e#1296#1381#0" expanded="false" />
+                <element signature="e#1307#1392#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="histograms.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/markov/histograms.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -470,7 +460,14 @@
       <option name="project" value="LOCAL" />
       <updated>1503056712294</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Faster, better, stronger">
+      <created>1503057113518</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1503057113519</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -574,7 +571,7 @@
             <element signature="e#380#437#0" expanded="false" />
             <element signature="e#646#707#0" expanded="false" />
             <element signature="e#782#847#0" expanded="false" />
-            <element signature="e#1296#1381#0" expanded="false" />
+            <element signature="e#1307#1392#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -635,7 +632,7 @@
             <element signature="e#380#437#0" expanded="false" />
             <element signature="e#646#707#0" expanded="false" />
             <element signature="e#782#847#0" expanded="false" />
-            <element signature="e#1296#1381#0" expanded="false" />
+            <element signature="e#1307#1392#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -895,14 +892,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/markov/histograms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testVK.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="334">
@@ -922,17 +911,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/markov/histograms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/bot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="39" column="23" lean-forward="true" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+        <state relative-caret-position="552">
+          <caret line="45" column="14" lean-forward="false" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
             <element signature="e#247#310#0" expanded="false" />
             <element signature="e#380#437#0" expanded="false" />
             <element signature="e#646#707#0" expanded="false" />
             <element signature="e#782#847#0" expanded="false" />
-            <element signature="e#1296#1381#0" expanded="false" />
+            <element signature="e#1307#1392#0" expanded="false" />
           </folding>
         </state>
       </provider>

@@ -39,10 +39,12 @@ def getMessage():
     message = updates[0].message
     chat = message.chat
     user = message.from_user
+    text = message.text
     print(message)
     print(chat)
     print(user)
-    bot.send_message(chat.id, "SOsi pistrun")
+    print(text)
+    id = chat.id
 
     bot.process_new_updates(updates)
     return "ok", 200
