@@ -37,11 +37,11 @@ def getMessage():
     #print(s)
     updates = [telebot.types.Update.de_json(s)]
     message = updates[0].message
-    #chat = message.chat
-    #user = message['from_user']
-    print(message)
-    #print(chat)
-    #print(user)
+    chat = message.chat
+    user = message.from_user
+    #print(message)
+    print(chat)
+    print(user)
     bot.process_new_updates(updates)
     return "ok", 200
 
