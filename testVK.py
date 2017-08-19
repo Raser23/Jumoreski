@@ -15,6 +15,7 @@ def prettify(str):
     return  str
 
 def UpdateAneks():
+    print("Start updating...")
     #from bot import send_debug as bot_debugger
     session = vk.AuthSession(access_token = config.VKTOKEN)
     vk_api = vk.API(session)
@@ -60,17 +61,18 @@ import threading,time
 
 def Updater():
     while True:
-        print("start updating...")
-        UpdateAneks()
         time.sleep(config.UPDATETIME)
+        UpdateAneks()
+
 
 def set_updater():
-    print("Updater setted")
+    print("Updater setted...")
     t = threading.Thread(target=Updater)
     t.start()
 
 
 set_updater()
+UpdateAneks()
 
 
 

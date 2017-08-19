@@ -25,8 +25,8 @@ def send_debug(text):
     _italic text_
     [text](URL)
     """
-    print(text)
-    #bot.send_message(config.DEBUGID,text,parse_mode="Markdown")
+    #print(text)
+    bot.send_message(config.DEBUGID,text,parse_mode="Markdown")
 import testVK
 import loadAneks
 
