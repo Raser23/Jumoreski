@@ -60,7 +60,7 @@ def send_anek(message):
 def generate(message):
     bot.send_message(message.chat.id, loadAneks.generate_anek1())
 
-@bot.message_handler(commands=['generate_short'])
+@bot.message_handler(commands=['generate-short'])
 def generate(message):
     bot.send_message(message.chat.id, loadAneks.generate_short())
 
@@ -81,7 +81,7 @@ def send_anek(message):
     else:
         default_answer(message)
 
-@bot.message_handler(commands=['info'])
+@bot.message_handler(commands=['i_nfo'])
 def send_anek(message):
     debug(message)
     default_answer(message)
