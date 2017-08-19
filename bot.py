@@ -77,7 +77,7 @@ def webhook():
     bot.set_webhook(url=config.HOST +"/bot")
     return "ok", 200
 
-if(config.WH == 1):
+if(int(config.WH) == 1):
     print("Webhook setted")
     webhook()
     server.run(host="0.0.0.0", port=os.environ.get('PORT', 5000))

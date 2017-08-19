@@ -7,7 +7,7 @@
       <env name="WH" value="0" />
       <env name="PYTHONUNBUFFERED" value="1" />
       <env name="VKAPI" value="830400db1ba458bbfbb67c15fba6dadc11e807cc2620ea2bd0fbfdbb6ffa6a0ead03aebf9fbe46fee57af" />
-      <env name="TOKEN" value="360853899:AAFH5OLI-l5fHXovtb2eH48jGNaIKBh90JM" />
+      <env name="TOKEN" value="364401428:AAGyfAXOuOwuqjS6NrcbTdUwuzim60GgPSU" />
     </envs>
     <option name="SDK_HOME" value="" />
     <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />

@@ -9,3 +9,4 @@ DEBUGID = os.environ.get('DEBUGID')
 WH = os.environ.get('WH')
 UPDATETIME = 60 * 10
 HOST = 'https://jumoreski.herokuapp.com'
+print(WH)
