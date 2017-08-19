@@ -65,7 +65,7 @@ def f1(text):
 
 models = {}
 
-for i in range(1,5):
+for i in range(2,4):
     models.setdefault(i,[])
     models[i] = make_model(config.path,i,f)
     print("Model number {} ready".format(i))

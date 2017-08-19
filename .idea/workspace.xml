@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="86bad2c0-a5d3-4d82-b962-30c4c498c3b4" name="Default" comment="">
+    <list default="true" id="86bad2c0-a5d3-4d82-b962-30c4c498c3b4" name="Default" comment="More generate and shlyapa 2">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/loadAneks.py" afterPath="$PROJECT_DIR$/loadAneks.py" />
     </list>
@@ -51,15 +51,14 @@
       <file leaf-file-name="loadAneks.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/loadAneks.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="71" column="0" lean-forward="true" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+            <state relative-caret-position="294">
+              <caret line="67" column="16" lean-forward="false" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="16" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
                 <element signature="e#199#274#0" expanded="false" />
                 <element signature="e#1291#1311#0" expanded="false" />
                 <element signature="e#1343#1354#0" expanded="false" />
                 <element signature="e#1373#1427#0" expanded="false" />
-                <element signature="e#1545#1657#0" expanded="false" />
                 <element signature="e#1677#1698#0" expanded="false" />
               </folding>
             </state>
@@ -442,13 +441,6 @@
       <option name="presentableId" value="Default" />
       <updated>1499439146976</updated>
     </task>
-    <task id="LOCAL-00018" summary="Faster, better, stronger">
-      <created>1503059418121</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1503059418121</updated>
-    </task>
     <task id="LOCAL-00019" summary="Debugging, shot aneks and auto downloading">
       <created>1503059724560</created>
       <option name="number" value="00019" />
@@ -785,7 +777,14 @@
       <option name="project" value="LOCAL" />
       <updated>1503150744491</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="More generate and shlyapa 2">
+      <created>1503150955119</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1503150955119</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1279,15 +1278,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/loadAneks.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="71" column="0" lean-forward="true" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+        <state relative-caret-position="294">
+          <caret line="67" column="16" lean-forward="false" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="16" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
             <element signature="e#199#274#0" expanded="false" />
             <element signature="e#1291#1311#0" expanded="false" />
             <element signature="e#1343#1354#0" expanded="false" />
             <element signature="e#1373#1427#0" expanded="false" />
-            <element signature="e#1545#1657#0" expanded="false" />
             <element signature="e#1677#1698#0" expanded="false" />
           </folding>
         </state>
