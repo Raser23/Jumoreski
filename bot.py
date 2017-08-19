@@ -15,11 +15,11 @@ def debug(message):
         return
 
     debug_text = "*User*: "+str(user.first_name) +" "+ str(user.last_name)+"\n"
-    debug_text+="*Nickname*: "+str(user.username)+"\n"
-    debug_text += "*User ID*: " + str(user.id)+"\n"
-    debug_text += "*Message*: "+str(msg_text)+"\n"
-    debug_text += "*Chat ID*: "+str(chat.id)+"\n"
-    debug_text += "*Conversation type*: "+str(chat.type)
+    #debug_text += "*Nickname*: "+str(user.username)+"\n"
+    #debug_text += "*User ID*: " + str(user.id)+"\n"
+    #debug_text += "*Message*: "+str(msg_text)+"\n"
+    #debug_text += "*Chat ID*: "+str(chat.id)+"\n"
+    #debug_text += "*Conversation type*: "+str(chat.type)
     send_debug(debug_text)
 
 def send_debug(text):
