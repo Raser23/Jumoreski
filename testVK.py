@@ -1,6 +1,6 @@
 import vk
 import config
-import testVkConfig as VKconfig
+
 
 
 
@@ -21,6 +21,7 @@ def func(a):
 bot_debugger = func
 
 def UpdateAneks():
+    import testVkConfig as VKconfig
     print("Start updating...")
     session = vk.AuthSession(access_token = config.VKTOKEN)
     vk_api = vk.API(session)
@@ -58,8 +59,9 @@ def UpdateAneks():
                 count += 1
             if (count >= need_to_download):
                 break
-        except:
+        except Exception as e:
             # To many requests
+            print(e)
             continue
     tvkc = open("testVKConfig.py", "w")
     s = "downloaded = {}".format(str(current_count))
