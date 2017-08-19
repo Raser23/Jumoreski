@@ -7,9 +7,25 @@ from flask import Flask, request
 
 import testVK
 
-
 bot = telebot.TeleBot(config.TOKEN)
 server = Flask(__name__)
+
+def debug(update):
+    message = update.message
+    chat = message.chat
+    user = message.from_user
+    msg_text = message.text
+
+    text = "User: "+str(user.first_name) +"\""+str(user.username)+"\""+ str(user.last_name)+"\n";
+    text += "User's ID: " + str(user.id)+"\n"
+    text += "Message: "+str(msg_text)+"\n"
+    text += "Chat ID:" +str(chat.id) +"\n"
+    text += "Conversation type: "+str(chat.type)
+    send_debug(text)
+
+def send_debug(text):
+    bot.send_message(config.DEBUGID,text)
+
 
 @bot.message_handler(commands=['start'])
 def start(message):
@@ -32,25 +48,8 @@ def send_anek(message):
     bot.send_message(message.chat.id, random.choice(loadAneks.aneks))
 
 
-def debug(update):
-    message = update.message
-    chat = message.chat
-    user = message.from_user
-    msg_text = message.text
-
-    #print(message)
-    #print(chat)
-    #print(user)
-    #print(text)
-
-    text = "Пользователь: "+str(user.first_name) +"\""+str(user.username)+"\""+ str(user.last_name)+"\n";
-    text += "ID пользователя: " + str(user.id)+"\n";
-    text += "Текст: "+str(msg_text)+"\n";
-    text += "Тип беседы: "+str(chat.type);
-    bot.send_message(config.DEBUGID,text)
-
 @server.route("/bot", methods=['POST'])
-def getMessage():
+def get_message():
     s = request.stream.read().decode("utf-8")
     #print(s)
     updates = [telebot.types.Update.de_json(s)]

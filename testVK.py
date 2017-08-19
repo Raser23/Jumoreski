@@ -2,6 +2,8 @@ import vk
 import config
 import testVkConfig as VKconfig
 
+from bot import send_debug as debug
+
 def prettify(str):
     while "  " in str:
         str.replace("  "," ")
@@ -12,21 +14,20 @@ def prettify(str):
     return  str
 
 def UpdateAneks():
-    
-    print(config.VKTOKEN)
+    text = ""
     session = vk.AuthSession(access_token = config.VKTOKEN)
     vk_api = vk.API(session)
-    
     downloaded_count = VKconfig.downloaded
     posts = vk_api.wall.get(domain=config.domain, offset=0)
-
     current_count = posts[0]
     count = 0
     need_to_download = current_count - downloaded_count
 
-    print("downloaded: " + str(downloaded_count))
-    print("current: " + str(current_count))
-    print("need to download: " + str(need_to_download))
+
+    text+=("downloaded: " + str(downloaded_count)) +"\n"
+    text+=("current: " + str(current_count))+"\n"
+    text+=("need to download: " + str(need_to_download))
+
 
     while (True):
         try:
