@@ -16,15 +16,20 @@ def debug(update):
     user = message.from_user
     msg_text = message.text
 
-    text = "User: "+str(user.first_name) +"\""+str(user.username)+"\""+ str(user.last_name)+"\n";
-    text += "User's ID: " + str(user.id)+"\n"
-    text += "Message: "+str(msg_text)+"\n"
-    text += "Chat ID:" +str(chat.id) +"\n"
-    text += "Conversation type: "+str(chat.type)
+    text = "*User:* "+str(user.first_name) +"\""+str(user.username)+"\""+ str(user.last_name)+"\n";
+    text += "*User's ID:* " + str(user.id)+"\n"
+    text += "*Message:* "+str(msg_text)+"\n"
+    text += "*Chat ID:* " +str(chat.id) +"\n"
+    text += "*Conversation type:* "+str(chat.type)
     send_debug(text)
 
 def send_debug(text):
-    bot.send_message(config.DEBUGID,text)
+    """"
+    *bold text *
+    _italic text_
+    [text](URL)
+    """
+    bot.send_message(config.DEBUGID,text,parse_mode="Markdown")
 
 
 @bot.message_handler(commands=['start'])
