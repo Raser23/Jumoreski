@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="86bad2c0-a5d3-4d82-b962-30c4c498c3b4" name="Default" comment="More generate and shlyapa 2">
+    <list default="true" id="86bad2c0-a5d3-4d82-b962-30c4c498c3b4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/loadAneks.py" afterPath="$PROJECT_DIR$/loadAneks.py" />
     </list>
@@ -51,15 +51,16 @@
       <file leaf-file-name="loadAneks.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/loadAneks.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="67" column="16" lean-forward="false" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="16" />
+            <state relative-caret-position="284">
+              <caret line="75" column="0" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
                 <element signature="e#199#274#0" expanded="false" />
-                <element signature="e#1291#1311#0" expanded="false" />
-                <element signature="e#1343#1354#0" expanded="false" />
-                <element signature="e#1373#1427#0" expanded="false" />
-                <element signature="e#1677#1698#0" expanded="false" />
+                <element signature="e#1422#1442#0" expanded="false" />
+                <element signature="e#1474#1485#0" expanded="false" />
+                <element signature="e#1504#1558#0" expanded="false" />
+                <element signature="e#1675#1787#0" expanded="false" />
+                <element signature="e#1807#1828#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -165,20 +166,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Jumoreski" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Jumoreski" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Jumoreski" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="aneks" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -419,8 +406,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.bot" />
-        <item index="1" class="java.lang.String" itemvalue="Python.loadAneks" />
+        <item index="0" class="java.lang.String" itemvalue="Python.loadAneks" />
+        <item index="1" class="java.lang.String" itemvalue="Python.bot" />
         <item index="2" class="java.lang.String" itemvalue="Python.config" />
         <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in test_event.py" />
         <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in testVK.py" />
@@ -440,13 +427,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1499439146976</updated>
-    </task>
-    <task id="LOCAL-00019" summary="Debugging, shot aneks and auto downloading">
-      <created>1503059724560</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1503059724560</updated>
     </task>
     <task id="LOCAL-00020" summary="Debugging, shot aneks and auto downloading">
       <created>1503060016165</created>
@@ -784,7 +764,14 @@
       <option name="project" value="LOCAL" />
       <updated>1503150955119</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="More generate and shlyapa 2">
+      <created>1503151137218</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1503151137219</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1239,14 +1226,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/markov/sentence_generator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1">
-          <caret line="20" column="79" lean-forward="false" selection-start-line="20" selection-start-column="79" selection-end-line="20" selection-end-column="79" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testVK.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-90">
@@ -1276,17 +1255,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/markov/sentence_generator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1">
+          <caret line="20" column="79" lean-forward="false" selection-start-line="20" selection-start-column="79" selection-end-line="20" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/loadAneks.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="67" column="16" lean-forward="false" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="16" />
+        <state relative-caret-position="284">
+          <caret line="75" column="0" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
             <element signature="e#199#274#0" expanded="false" />
-            <element signature="e#1291#1311#0" expanded="false" />
-            <element signature="e#1343#1354#0" expanded="false" />
-            <element signature="e#1373#1427#0" expanded="false" />
-            <element signature="e#1677#1698#0" expanded="false" />
+            <element signature="e#1422#1442#0" expanded="false" />
+            <element signature="e#1474#1485#0" expanded="false" />
+            <element signature="e#1504#1558#0" expanded="false" />
+            <element signature="e#1675#1787#0" expanded="false" />
+            <element signature="e#1807#1828#0" expanded="false" />
           </folding>
         </state>
       </provider>

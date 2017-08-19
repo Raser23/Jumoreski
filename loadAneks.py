@@ -29,6 +29,10 @@ def make_model(path,count,func):
 
         for k in range(count):
             anek_data.append("#START#")
+            start_s = " ".join(words[:k])
+            if(start_s !="" and start_s!=" "):
+                anek_data.append(start_s)
+
             j =-1
             for i in range(k, len(words) - count + 1, count):
                 s=""
@@ -45,7 +49,7 @@ def make_model(path,count,func):
 
 
         data += anek_data
-    #print(data)
+    print(data)
     return make_markov_model(data)
 
 def get_random():
@@ -60,12 +64,12 @@ def f1(text):
     counter +=1
     return counter == 3
 
-#tst_model = make_model("test/",5,f)
+tst_model = make_model("test/",5,f)
 #TODO: сделать нормальное начало анеков
 
 models = {}
 
-for i in range(2,4):
+for i in range(2,3):
     models.setdefault(i,[])
     models[i] = make_model(config.path,i,f)
     print("Model number {} ready".format(i))
