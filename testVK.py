@@ -14,7 +14,6 @@ def prettify(str):
     return  str
 
 def UpdateAneks():
-    text = ""
     session = vk.AuthSession(access_token = config.VKTOKEN)
     vk_api = vk.API(session)
     downloaded_count = VKconfig.downloaded
@@ -24,10 +23,10 @@ def UpdateAneks():
     need_to_download = current_count - downloaded_count
 
 
-    text+=("*downloaded:* " + str(downloaded_count)) +"\n"
+    text=("*downloaded:* " + str(downloaded_count)) +"\n"
     text+=("*current:* " + str(current_count))+"\n"
     text+=("*need to download:* " + str(need_to_download))
-    debug(text)
+    debug("Updating aneks DB")
 
     while (True):
         try:
