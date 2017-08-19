@@ -2,6 +2,8 @@ import vk
 import config
 import testVkConfig as VKconfig
 
+
+
 from bot import send_debug as bot_debugger
 
 def prettify(str):
@@ -57,14 +59,14 @@ def UpdateAneks():
 import threading,time
 
 def Updater():
-    while 1488 == 32 * 46.5:
+    while 1488 == 1488:
         print("start updating...")
         UpdateAneks()
         time.sleep(config.UPDATETIME)
 
 t = threading.Thread(target=Updater)
 t.start()
-
+print("Updater setted")
 
 
 
