@@ -56,9 +56,30 @@ def start(message):
 def send_anek(message):
     bot.send_message(message.chat.id, loadAneks.get_random())
 
-@bot.message_handler(commands=['generate'])
+@bot.message_handler(regexp="/generate")
 def generate(message):
-    bot.send_message(message.chat.id, loadAneks.generate_anek1())
+    index = -1
+    txt = message.text
+
+    txt = txt.split(" ")
+    index = txt[0][len("/generate"):]
+    if(index == "hat"):
+        bot.send_message(message.chat.id, loadAneks.generate_hat_anek())
+        return
+
+    if(index == ""):
+        index = 2
+    else:
+        index = int(index)
+    if(index <1 or index>6):
+        index = 2
+    bot.send_message(message.chat.id, loadAneks.generate_anek(index))
+
+
+
+
+
+
 
 @bot.message_handler(commands=['generateshort'])
 def generate(message):

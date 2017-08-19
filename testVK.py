@@ -28,7 +28,7 @@ def UpdateAneks():
     f = open("downloadedc", 'r')
 
     downloaded_count = int( f.read())
-    print(downloaded_count)
+    print("Downloaded: "+str(downloaded_count))
     posts = vk_api.wall.get(domain=config.domain, offset=0)
     current_count = posts[0]
     count = 0
@@ -39,11 +39,11 @@ def UpdateAneks():
     while (True):
         try:
             current_posts = vk_api.wall.get(domain=config.domain, offset=count)[1:]
-            if(count%10==0):
-                print(count)
             for post in current_posts:
                 if (count >= need_to_download):
                     break
+                if(count % 10 == 0):
+                    print("counter: " + str(count))
                 name = str(current_count - count-1)
                 text = post['text']
 
@@ -60,7 +60,7 @@ def UpdateAneks():
     tvkc = open("downloadedc", "w")
     s = "{}".format(str(current_count))
     debug_text+="new downloaded count: "+s+"\n"
-    print(s)
+    print("New downloaded count: "+str(s))
     try:
         tvkc.write(s)
         debug_text += "config saved"
