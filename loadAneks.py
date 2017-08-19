@@ -61,11 +61,11 @@ def f1(text):
     return counter == 3
 
 #tst_model = make_model("test/",5,f)
-
+#TODO: сделать нормальное начало анеков
 
 models = {}
 
-for i in range(3,4):
+for i in range(1,5):
     models.setdefault(i,[])
     models[i] = make_model(config.path,i,f)
     print("Model number {} ready".format(i))
