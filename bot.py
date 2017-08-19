@@ -7,6 +7,7 @@ bot = telebot.TeleBot(config.TOKEN)
 server = Flask(__name__)
 
 def debug(message):
+
     chat = message.chat
     user = message.from_user
     msg_text = message.text
@@ -18,11 +19,17 @@ def debug(message):
     debug_text += "*Nickname*: "+str(user.username)+"\n"
     debug_text += "*User ID*: " + str(user.id)+"\n"
     debug_text += "*Message*: "+str(msg_text)+"\n"
-    #debug_text += "*Chat ID*: "+str(chat.id)+"\n"
-    #debug_text += "*Conversation type*: "+str(chat.type)
+    debug_text += "*Chat ID*: "+str(chat.id)+"\n"
+    debug_text += "*Conversation type*: "+str(chat.type)
     send_debug(debug_text)
 
 def send_debug(text):
+    def edit_msg_text(txt):
+        chars = ["*", "_", "[", "]", "(", ")", "\""]
+        for ch in chars:
+            while ch in txt:
+                txt = txt.replace(ch," ")
+        return txt
     """"
     *bold text *
     _italic text_
@@ -30,7 +37,7 @@ def send_debug(text):
     """
     #print(text)
     try:
-        bot.send_message(config.DEBUGID,text,parse_mode="Markdown")
+        bot.send_message(config.DEBUGID,edit_msg_text(text),parse_mode="Markdown")
     except Exception as inst:
         print(inst)
         bot.send_message(config.DEBUGID, text)
