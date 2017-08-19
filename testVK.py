@@ -16,7 +16,7 @@ def prettify(str):
 
 def UpdateAneks():
     print("Start updating...")
-
+    from bot import send_debug as bot_debugger
     session = vk.AuthSession(access_token = config.VKTOKEN)
     vk_api = vk.API(session)
     downloaded_count = VKconfig.downloaded
@@ -28,7 +28,7 @@ def UpdateAneks():
     debug_text+=("*current:* " + str(current_count))+"\n"
     debug_text+=("*need to download:* " + str(need_to_download))
     print(debug_text)
-    #bot_debugger(debug_text)
+    bot_debugger(debug_text)
 
     while (True):
         try:
