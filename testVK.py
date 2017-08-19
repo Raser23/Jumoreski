@@ -25,7 +25,10 @@ def UpdateAneks():
     print("Start updating...")
     session = vk.AuthSession(access_token = config.VKTOKEN)
     vk_api = vk.API(session)
-    downloaded_count = VKconfig.downloaded
+    f = open("downloadedc", 'r')
+
+    downloaded_count = int( f.read())
+    print(downloaded_count)
     posts = vk_api.wall.get(domain=config.domain, offset=0)
     current_count = posts[0]
     count = 0
@@ -42,7 +45,7 @@ def UpdateAneks():
 
                 if (count >= need_to_download):
                     break
-                b = count%20 == 0 or count == need_to_download -1
+                b = count%300 == 0 or count == need_to_download -1
                 if b:
                     debug_text += str(count) + "..."
 
@@ -62,14 +65,15 @@ def UpdateAneks():
         except Exception as e:
             # To many requests
             print(e)
+            print(count)
             continue
-    tvkc = open("testVKConfig.py", "w")
-    s = "downloaded = {}".format(str(current_count))
+    tvkc = open("downloadedc", "w")
+    s = "{}".format(str(current_count))
     try:
         tvkc.write(s)
         debug_text += "config saved"
-    except:
-        print("err...")
+    except Exception as e:
+        print(e)
     bot_debugger(debug_text)
 
 
