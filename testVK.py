@@ -29,9 +29,9 @@ def UpdateAneks():
     current_count = posts[0]
     count = 0
     need_to_download = current_count - downloaded_count
-    debug_text=("*downloaded:* " + str(downloaded_count)) +"\n"
-    debug_text+=("*current:* " + str(current_count))+"\n"
-    debug_text+=("*need to download:* " + str(need_to_download))
+    debug_text=("<b>downloaded:<b> " + str(downloaded_count)) +"\n"
+    debug_text+=("<b>current:<b> " + str(current_count))+"\n"
+    debug_text+=("<b>need to download:<b> " + str(need_to_download))
     #print(debug_text)
     bot_debugger(debug_text)
 
