@@ -1,0 +1,24 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="testVK" type="PythonConfigurationType" factoryName="Python">
+    <option name="INTERPRETER_OPTIONS" value="" />
+    <option name="PARENT_ENVS" value="true" />
+    <envs>
+      <env name="DEBUGID" value="-215815085" />
+      <env name="WH" value="0" />
+      <env name="PYTHONUNBUFFERED" value="1" />
+      <env name="VKAPI" value="830400db1ba458bbfbb67c15fba6dadc11e807cc2620ea2bd0fbfdbb6ffa6a0ead03aebf9fbe46fee57af" />
+      <env name="TOKEN" value="360853899:AAFH5OLI-l5fHXovtb2eH48jGNaIKBh90JM" />
+    </envs>
+    <option name="SDK_HOME" value="" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    <option name="IS_MODULE_SDK" value="true" />
+    <option name="ADD_CONTENT_ROOTS" value="true" />
+    <option name="ADD_SOURCE_ROOTS" value="true" />
+    <module name="Jumoreski" />
+    <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testVK.py" />
+    <option name="PARAMETERS" value="" />
+    <option name="SHOW_COMMAND_LINE" value="false" />
+    <option name="EMULATE_TERMINAL" value="false" />
+    <method />
+  </configuration>
+</component>
