@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="86bad2c0-a5d3-4d82-b962-30c4c498c3b4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bot.py" afterPath="$PROJECT_DIR$/bot.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/loadAneks.py" afterPath="$PROJECT_DIR$/loadAneks.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,18 +32,18 @@
       <file leaf-file-name="bot.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+            <state relative-caret-position="156">
+              <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
                 <element signature="e#712#1217#0" expanded="false" />
                 <element signature="e#1343#1406#0" expanded="false" />
                 <element signature="e#1479#1536#0" expanded="false" />
-                <element signature="e#2093#2154#0" expanded="false" />
-                <element signature="e#2232#2648#0" expanded="false" />
-                <element signature="e#2719#2761#0" expanded="false" />
-                <element signature="e#2841#2906#0" expanded="false" />
-                <element signature="e#2975#3180#0" expanded="false" />
+                <element signature="e#1614#1675#0" expanded="false" />
+                <element signature="e#2234#2650#0" expanded="false" />
+                <element signature="e#2721#2763#0" expanded="false" />
+                <element signature="e#2843#2908#0" expanded="false" />
+                <element signature="e#2977#3182#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -51,16 +52,16 @@
       <file leaf-file-name="loadAneks.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/loadAneks.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="75" column="0" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+            <state relative-caret-position="-84">
+              <caret line="51" column="5" lean-forward="false" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
                 <element signature="e#199#274#0" expanded="false" />
-                <element signature="e#1422#1442#0" expanded="false" />
-                <element signature="e#1474#1485#0" expanded="false" />
-                <element signature="e#1504#1558#0" expanded="false" />
-                <element signature="e#1675#1787#0" expanded="false" />
-                <element signature="e#1807#1828#0" expanded="false" />
+                <element signature="e#1423#1443#0" expanded="false" />
+                <element signature="e#1475#1486#0" expanded="false" />
+                <element signature="e#1505#1559#0" expanded="false" />
+                <element signature="e#1676#1788#0" expanded="false" />
+                <element signature="e#1808#1829#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -128,8 +129,8 @@
         <option value="$PROJECT_DIR$/testVK.py" />
         <option value="$PROJECT_DIR$/text.txt" />
         <option value="$PROJECT_DIR$/test/tst" />
-        <option value="$PROJECT_DIR$/bot.py" />
         <option value="$PROJECT_DIR$/loadAneks.py" />
+        <option value="$PROJECT_DIR$/bot.py" />
       </list>
     </option>
   </component>
@@ -427,13 +428,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1499439146976</updated>
-    </task>
-    <task id="LOCAL-00020" summary="Debugging, shot aneks and auto downloading">
-      <created>1503060016165</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1503060016165</updated>
     </task>
     <task id="LOCAL-00021" summary="Debugging, shot aneks and auto downloading">
       <created>1503110726451</created>
@@ -771,7 +765,14 @@
       <option name="project" value="LOCAL" />
       <updated>1503151137219</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="Nice 512 mb RAM on heroku">
+      <created>1503151549536</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1503151549536</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -874,7 +875,8 @@
     <MESSAGE value="Fixing auto update" />
     <MESSAGE value="More generate and shlyapa" />
     <MESSAGE value="More generate and shlyapa 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="More generate and shlyapa 2" />
+    <MESSAGE value="Nice 512 mb RAM on heroku" />
+    <option name="LAST_COMMIT_MESSAGE" value="Nice 512 mb RAM on heroku" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -899,11 +901,11 @@
             <element signature="e#712#1217#0" expanded="false" />
             <element signature="e#1343#1406#0" expanded="false" />
             <element signature="e#1479#1536#0" expanded="false" />
-            <element signature="e#2093#2154#0" expanded="false" />
-            <element signature="e#2232#2648#0" expanded="false" />
-            <element signature="e#2719#2761#0" expanded="false" />
-            <element signature="e#2841#2906#0" expanded="false" />
-            <element signature="e#2975#3180#0" expanded="false" />
+            <element signature="e#1614#1675#0" expanded="false" />
+            <element signature="e#2234#2650#0" expanded="false" />
+            <element signature="e#2721#2763#0" expanded="false" />
+            <element signature="e#2843#2908#0" expanded="false" />
+            <element signature="e#2977#3182#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1226,6 +1228,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/markov/sentence_generator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1">
+          <caret line="20" column="79" lean-forward="false" selection-start-line="20" selection-start-column="79" selection-end-line="20" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/testVK.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-90">
@@ -1239,42 +1249,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+        <state relative-caret-position="156">
+          <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
             <element signature="e#712#1217#0" expanded="false" />
             <element signature="e#1343#1406#0" expanded="false" />
             <element signature="e#1479#1536#0" expanded="false" />
-            <element signature="e#2093#2154#0" expanded="false" />
-            <element signature="e#2232#2648#0" expanded="false" />
-            <element signature="e#2719#2761#0" expanded="false" />
-            <element signature="e#2841#2906#0" expanded="false" />
-            <element signature="e#2975#3180#0" expanded="false" />
+            <element signature="e#1614#1675#0" expanded="false" />
+            <element signature="e#2234#2650#0" expanded="false" />
+            <element signature="e#2721#2763#0" expanded="false" />
+            <element signature="e#2843#2908#0" expanded="false" />
+            <element signature="e#2977#3182#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markov/sentence_generator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1">
-          <caret line="20" column="79" lean-forward="false" selection-start-line="20" selection-start-column="79" selection-end-line="20" selection-end-column="79" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/loadAneks.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="75" column="0" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+        <state relative-caret-position="-84">
+          <caret line="51" column="5" lean-forward="false" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
             <element signature="e#199#274#0" expanded="false" />
-            <element signature="e#1422#1442#0" expanded="false" />
-            <element signature="e#1474#1485#0" expanded="false" />
-            <element signature="e#1504#1558#0" expanded="false" />
-            <element signature="e#1675#1787#0" expanded="false" />
-            <element signature="e#1807#1828#0" expanded="false" />
+            <element signature="e#1423#1443#0" expanded="false" />
+            <element signature="e#1475#1486#0" expanded="false" />
+            <element signature="e#1505#1559#0" expanded="false" />
+            <element signature="e#1676#1788#0" expanded="false" />
+            <element signature="e#1808#1829#0" expanded="false" />
           </folding>
         </state>
       </provider>

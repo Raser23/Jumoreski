@@ -56,6 +56,11 @@ def start(message):
 def send_anek(message):
     bot.send_message(message.chat.id, loadAneks.get_random())
 
+@bot.message_handler(commands=['generateshort'])
+def generate(message):
+    bot.send_message(message.chat.id, loadAneks.generate_short())
+
+
 @bot.message_handler(regexp="/generate")
 def generate(message):
     index = -1
@@ -81,9 +86,6 @@ def generate(message):
 
 
 
-@bot.message_handler(commands=['generateshort'])
-def generate(message):
-    bot.send_message(message.chat.id, loadAneks.generate_short())
 
 @bot.message_handler(commands=['send_message'])
 def send_anek(message):

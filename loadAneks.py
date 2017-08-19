@@ -49,7 +49,7 @@ def make_model(path,count,func):
 
 
         data += anek_data
-    print(data)
+    #print(data)
     return make_markov_model(data)
 
 def get_random():
