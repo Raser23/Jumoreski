@@ -13,7 +13,7 @@ def debug(update):
     msg_text = message.text
 
     text = "*User:* "+str(user.first_name) +"\""+str(user.username)+"\""+ str(user.last_name)+"\n";
-    text += "*User's ID:* " + str(user.id)+"\n"
+    text += "*User ID:* " + str(user.id)+"\n"
     text += "*Message:* "+str(msg_text)+"\n"
     text += "*Chat ID:* "+str(chat.id)+"\n"
     text += "*Conversation type:* "+str(chat.type)
@@ -26,7 +26,10 @@ def send_debug(text):
     [text](URL)
     """
     #print(text)
-    bot.send_message(config.DEBUGID,text,parse_mode="Markdown")
+    try:
+        bot.send_message(config.DEBUGID,text,parse_mode="Markdown")
+    except:
+        bot.send_message(config.DEBUGID, text)
 import testVK
 import loadAneks
 
