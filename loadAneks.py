@@ -40,7 +40,7 @@ for text in aneks:
         anek_data.append(words[i] +" "+ words[i+1])
     anek_data.append("#END#")
 
-    data +=  anek_data
+    data += anek_data
 
 #print(data)
 model1 = make_markov_model(data)

@@ -59,7 +59,7 @@ def UpdateAneks():
 import threading,time
 
 def Updater():
-    while 1488 == 1488:
+    while True:
         print("start updating...")
         UpdateAneks()
         time.sleep(config.UPDATETIME)

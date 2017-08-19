@@ -1,12 +1,8 @@
-import random
-import loadAneks
-import config
 import telebot
-import os
 from flask import Flask, request
-
-import testVK
-
+import config
+import os
+import random
 bot = telebot.TeleBot(config.TOKEN)
 server = Flask(__name__)
 
@@ -19,7 +15,7 @@ def debug(update):
     text = "*User:* "+str(user.first_name) +"\""+str(user.username)+"\""+ str(user.last_name)+"\n";
     text += "*User's ID:* " + str(user.id)+"\n"
     text += "*Message:* "+str(msg_text)+"\n"
-    text += "*Chat ID:* " +str(chat.id) +"\n"
+    text += "*Chat ID:* "+str(chat.id)+"\n"
     text += "*Conversation type:* "+str(chat.type)
     send_debug(text)
 
@@ -31,6 +27,11 @@ def send_debug(text):
     """
     print(text)
     #bot.send_message(config.DEBUGID,text,parse_mode="Markdown")
+
+
+import testVK
+import loadAneks
+
 
 
 @bot.message_handler(commands=['start'])
@@ -69,7 +70,7 @@ def get_message():
 def webhook():
     bot.remove_webhook()
     bot.set_webhook(url=config.HOST +"/bot")
-    return "!", 200
+    return "ok", 200
 
 webhook()
 server.run(host="0.0.0.0", port=os.environ.get('PORT', 5000))
