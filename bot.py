@@ -14,23 +14,25 @@ def debug(message):
     if int(chat.id) == int(config.DEBUGID):
         return
 
-    debug_text = "<b>User<b>: "+str(user.first_name) +"\""+str(user.username)+"\""+ str(user.last_name)+"\n";
-    debug_text += "<b>User ID<b>: " + str(user.id)+"\n"
-    debug_text += "<b>Message<b>: "+str(msg_text)+"\n"
-    debug_text += "<b>Chat ID<b>: "+str(chat.id)+"\n"
-    debug_text += "<b>Conversation type<b>: "+str(chat.type)
+    debug_text = "*User*: "+str(user.first_name) +" "+ str(user.last_name)+"\n"
+    debug_text+="*Nickname*: "+str(user.username)+"\n"
+    debug_text += "*User ID*: " + str(user.id)+"\n"
+    debug_text += "*Message*: "+str(msg_text)+"\n"
+    debug_text += "*Chat ID*: "+str(chat.id)+"\n"
+    debug_text += "*Conversation type*: "+str(chat.type)
     send_debug(debug_text)
 
 def send_debug(text):
     """"
-    <b>bold text <b>
+    *bold text *
     _italic text_
     [text](URL)
     """
     #print(text)
     try:
-        bot.send_message(config.DEBUGID,text,parse_mode="HTML")
-    except:
+        bot.send_message(config.DEBUGID,text,parse_mode="Markdown")
+    except Exception as inst:
+        print(inst)
         bot.send_message(config.DEBUGID, text)
 
 import testVK
@@ -72,6 +74,10 @@ def send_anek(message):
     else:
         default_answer(message)
 
+@bot.message_handler(commands=['info'])
+def send_anek(message):
+    debug(message)
+    default_answer(message)
 
 @bot.message_handler(content_types=["text"])
 def default_answer(message):
