@@ -29,7 +29,8 @@ def send_debug(text):
     _italic text_
     [text](URL)
     """
-    bot.send_message(config.DEBUGID,text,parse_mode="Markdown")
+    print(text)
+    #bot.send_message(config.DEBUGID,text,parse_mode="Markdown")
 
 
 @bot.message_handler(commands=['start'])
