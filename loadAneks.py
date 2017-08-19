@@ -88,7 +88,7 @@ def generate_anek(model_index):
 def generate_hat_anek():
     return generate_random_sentence(-1, hat_model,max_words = 100)
 
-def generate_short(model_index):
+def generate_short():
     return generate_random_sentence(-1, models[2],max_words=10)
 
 
