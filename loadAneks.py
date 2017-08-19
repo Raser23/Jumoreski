@@ -13,6 +13,7 @@ onlyfiles = [f for f in listdir(config.path) if isfile(join(config.path, f))]
 for text in onlyfiles:
     path = config.path + text
     f = open(path, 'r')
+    #print(path)
     text = prettify(f.read())
     aneks.append(text)
 
