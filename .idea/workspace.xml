@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86bad2c0-a5d3-4d82-b962-30c4c498c3b4" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_event.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bot.py" afterPath="$PROJECT_DIR$/bot.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.py" afterPath="$PROJECT_DIR$/config.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testVK.py" afterPath="$PROJECT_DIR$/testVK.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testVkConfig.py" afterPath="$PROJECT_DIR$/testVkConfig.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,16 +19,17 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="testVK.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="testVK.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/testVK.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="29" column="4" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+            <state relative-caret-position="240">
+              <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
                 <element signature="e#83#239#0" expanded="false" />
-                <element signature="e#1667#1738#0" expanded="false" />
-                <element signature="e#1764#1845#0" expanded="false" />
+                <element signature="e#317#1630#0" expanded="false" />
+                <element signature="e#1674#1745#0" expanded="false" />
+                <element signature="e#1771#1852#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -33,18 +38,18 @@
       <file leaf-file-name="config.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+            <state relative-caret-position="135">
+              <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bot.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="bot.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bot.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
-              <caret line="33" column="8" lean-forward="false" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+              <caret line="33" column="13" lean-forward="true" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
                 <element signature="e#172#592#0" expanded="false" />
@@ -95,9 +100,10 @@
         <option value="$PROJECT_DIR$/testVkConfig.py" />
         <option value="$PROJECT_DIR$/markov/sentence_generator.py" />
         <option value="$PROJECT_DIR$/loadAneks.py" />
+        <option value="$PROJECT_DIR$/test_event.py" />
         <option value="$PROJECT_DIR$/bot.py" />
-        <option value="$PROJECT_DIR$/config.py" />
         <option value="$PROJECT_DIR$/testVK.py" />
+        <option value="$PROJECT_DIR$/config.py" />
       </list>
     </option>
   </component>
@@ -138,20 +144,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Jumoreski" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Jumoreski" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="markov" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -180,7 +172,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.testVK">
+  <component name="RunManager" selected="Python.bot">
     <configuration default="false" name="Unittests in testVK.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -238,6 +230,21 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests in test_event.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Jumoreski" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_event.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
     <configuration default="true" type="CompoundRunConfigurationType" factoryName="Compound Run Configuration">
@@ -317,18 +324,43 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
-    <list size="4">
+    <configuration default="false" name="test_event" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="DEBUGID" value="-215815085" />
+        <env name="WH" value="0" />
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="VKAPI" value="830400db1ba458bbfbb67c15fba6dadc11e807cc2620ea2bd0fbfdbb6ffa6a0ead03aebf9fbe46fee57af" />
+        <env name="TOKEN" value="360853899:AAFH5OLI-l5fHXovtb2eH48jGNaIKBh90JM" />
+      </envs>
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.6/bin/python3.6" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Jumoreski" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_event.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.testVK" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in testVK.py" />
-      <item index="2" class="java.lang.String" itemvalue="Python.config" />
-      <item index="3" class="java.lang.String" itemvalue="Python.bot" />
+      <item index="1" class="java.lang.String" itemvalue="Python.test_event" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in testVK.py" />
+      <item index="3" class="java.lang.String" itemvalue="Python.config" />
+      <item index="4" class="java.lang.String" itemvalue="Python.bot" />
+      <item index="5" class="java.lang.String" itemvalue="Python tests.Unittests in test_event.py" />
     </list>
     <recent_temporary>
-      <list size="4">
+      <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.bot" />
-        <item index="1" class="java.lang.String" itemvalue="Python.config" />
-        <item index="2" class="java.lang.String" itemvalue="Python.testVK" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in testVK.py" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_event.py" />
+        <item index="2" class="java.lang.String" itemvalue="Python.config" />
+        <item index="3" class="java.lang.String" itemvalue="Python.testVK" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in testVK.py" />
       </list>
     </recent_temporary>
   </component>
@@ -612,7 +644,14 @@
       <option name="project" value="LOCAL" />
       <updated>1503120623068</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Fix bugs">
+      <created>1503120800317</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1503120800317</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -621,6 +660,9 @@
     </history-entry>
     <history-entry file="Unittests_in_testVK_py - 2017.07.08 at 09h 35m 12s.xml">
       <configuration name="Unittests in testVK.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_event_py - 2017.08.19 at 11h 49m 55s.xml">
+      <configuration name="Unittests in test_event.py" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_in_test_py - 2017.07.08 at 09h 24m 25s.xml">
       <configuration name="Unittests in test.py" configurationId="tests" />
@@ -699,18 +741,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/loadAneks.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="50" column="6" lean-forward="false" selection-start-line="50" selection-start-column="6" selection-end-line="50" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/markov/markov_model.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
@@ -744,8 +779,9 @@
           <folding>
             <element signature="e#0#9#0" expanded="true" />
             <element signature="e#83#239#0" expanded="false" />
-            <element signature="e#1667#1738#0" expanded="false" />
-            <element signature="e#1764#1845#0" expanded="false" />
+            <element signature="e#317#1630#0" expanded="false" />
+            <element signature="e#1674#1745#0" expanded="false" />
+            <element signature="e#1771#1852#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -797,8 +833,9 @@
           <folding>
             <element signature="e#0#9#0" expanded="true" />
             <element signature="e#83#239#0" expanded="false" />
-            <element signature="e#1667#1738#0" expanded="false" />
-            <element signature="e#1764#1845#0" expanded="false" />
+            <element signature="e#317#1630#0" expanded="false" />
+            <element signature="e#1674#1745#0" expanded="false" />
+            <element signature="e#1771#1852#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -845,8 +882,9 @@
           <folding>
             <element signature="e#0#9#0" expanded="true" />
             <element signature="e#83#239#0" expanded="false" />
-            <element signature="e#1667#1738#0" expanded="false" />
-            <element signature="e#1764#1845#0" expanded="false" />
+            <element signature="e#317#1630#0" expanded="false" />
+            <element signature="e#1674#1745#0" expanded="false" />
+            <element signature="e#1771#1852#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -900,8 +938,9 @@
           <folding>
             <element signature="e#0#9#0" expanded="true" />
             <element signature="e#83#239#0" expanded="false" />
-            <element signature="e#1667#1738#0" expanded="false" />
-            <element signature="e#1764#1845#0" expanded="false" />
+            <element signature="e#317#1630#0" expanded="false" />
+            <element signature="e#1674#1745#0" expanded="false" />
+            <element signature="e#1771#1852#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1069,35 +1108,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/bot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="33" column="13" lean-forward="true" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#172#592#0" expanded="false" />
+            <element signature="e#620#836#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        <state relative-caret-position="135">
+          <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_event.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testVK.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="29" column="4" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+        <state relative-caret-position="240">
+          <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
             <element signature="e#83#239#0" expanded="false" />
-            <element signature="e#1667#1738#0" expanded="false" />
-            <element signature="e#1764#1845#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="33" column="8" lean-forward="false" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-            <element signature="e#172#592#0" expanded="false" />
-            <element signature="e#620#836#0" expanded="false" />
+            <element signature="e#317#1630#0" expanded="false" />
+            <element signature="e#1674#1745#0" expanded="false" />
+            <element signature="e#1771#1852#0" expanded="false" />
           </folding>
         </state>
       </provider>

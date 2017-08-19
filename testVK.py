@@ -14,9 +14,14 @@ def prettify(str):
         str = str[:-1]
     return  str
 
+
+def func(a):
+    print("hui")
+
+bot_debugger = func
+
 def UpdateAneks():
     print("Start updating...")
-    from bot import send_debug as bot_debugger
     session = vk.AuthSession(access_token = config.VKTOKEN)
     vk_api = vk.API(session)
     downloaded_count = VKconfig.downloaded
@@ -27,7 +32,7 @@ def UpdateAneks():
     debug_text=("*downloaded:* " + str(downloaded_count)) +"\n"
     debug_text+=("*current:* " + str(current_count))+"\n"
     debug_text+=("*need to download:* " + str(need_to_download))
-    print(debug_text)
+    #print(debug_text)
     bot_debugger(debug_text)
 
     while (True):
@@ -59,8 +64,8 @@ import threading,time
 
 def Updater():
     while True:
-        time.sleep(config.UPDATETIME)
         UpdateAneks()
+        time.sleep(config.UPDATETIME)
 
 
 def set_updater():
@@ -69,8 +74,10 @@ def set_updater():
     t.start()
 
 
-set_updater()
-UpdateAneks()
+def start(debug):
+    set_updater()
+    global bot_debugger
+    bot_debugger = debug
 
 
 

@@ -30,9 +30,9 @@ def send_debug(text):
     except:
         bot.send_message(config.DEBUGID, text)
 
-if __name__ == "__main__":
-    import testVK
-    import loadAneks
+import testVK
+testVK.start(send_debug)
+import loadAneks
 
 
 
