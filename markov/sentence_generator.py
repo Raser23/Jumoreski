@@ -19,7 +19,7 @@ def generate_random_start(model):
 
 
 def generate_random_sentence(length, markov_model, max_words = 500, epoch = 0):
-    if epoch > 40:
+    if epoch > 20:
         return "Я старался, но не смог сгенерировать анек"
 
     current_word = generate_random_start(markov_model)
