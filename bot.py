@@ -27,7 +27,7 @@ def send_debug(text):
     """
     print(text)
     #bot.send_message(config.DEBUGID,text,parse_mode="Markdown")
-
+import testVK
 import loadAneks
 
 

@@ -65,9 +65,10 @@ def Updater():
         time.sleep(config.UPDATETIME)
 
 def set_updater():
+    print("Updater setted")
     t = threading.Thread(target=Updater)
     t.start()
-    print("Updater setted")
+
 
 set_updater()
 
