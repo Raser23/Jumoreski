@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86bad2c0-a5d3-4d82-b962-30c4c498c3b4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_event.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bot.py" afterPath="$PROJECT_DIR$/bot.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.py" afterPath="$PROJECT_DIR$/config.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testVK.py" afterPath="$PROJECT_DIR$/testVK.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testVkConfig.py" afterPath="$PROJECT_DIR$/testVkConfig.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,7 +17,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="testVK.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="testVK.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testVK.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
@@ -30,6 +28,7 @@
                 <element signature="e#317#1630#0" expanded="false" />
                 <element signature="e#1674#1745#0" expanded="false" />
                 <element signature="e#1771#1852#0" expanded="false" />
+                <element signature="e#1877#1939#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -38,22 +37,27 @@
       <file leaf-file-name="config.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+            <state relative-caret-position="120">
+              <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bot.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="bot.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="33" column="13" lean-forward="true" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+            <state relative-caret-position="186">
+              <caret line="13" column="41" lean-forward="false" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
-                <element signature="e#172#592#0" expanded="false" />
-                <element signature="e#620#836#0" expanded="false" />
+                <element signature="e#680#896#0" expanded="false" />
+                <element signature="e#1022#1085#0" expanded="false" />
+                <element signature="e#1158#1215#0" expanded="false" />
+                <element signature="e#1288#1349#0" expanded="false" />
+                <element signature="e#1428#1489#0" expanded="false" />
+                <element signature="e#1567#1983#0" expanded="false" />
+                <element signature="e#2064#2129#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -101,9 +105,9 @@
         <option value="$PROJECT_DIR$/markov/sentence_generator.py" />
         <option value="$PROJECT_DIR$/loadAneks.py" />
         <option value="$PROJECT_DIR$/test_event.py" />
-        <option value="$PROJECT_DIR$/bot.py" />
         <option value="$PROJECT_DIR$/testVK.py" />
         <option value="$PROJECT_DIR$/config.py" />
+        <option value="$PROJECT_DIR$/bot.py" />
       </list>
     </option>
   </component>
@@ -210,28 +214,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="bot" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-        <env name="DEBUGID" value="-215815085" />
-        <env name="WH" value="0" />
-        <env name="VKAPI" value="830400db1ba458bbfbb67c15fba6dadc11e807cc2620ea2bd0fbfdbb6ffa6a0ead03aebf9fbe46fee57af" />
-        <env name="TOKEN" value="360853899:AAFH5OLI-l5fHXovtb2eH48jGNaIKBh90JM" />
-      </envs>
-      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.6/bin/python3.6" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Jumoreski" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bot.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
     <configuration default="false" name="Unittests in test_event.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -245,6 +227,29 @@
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/test_event.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="false" name="bot" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="DEBUGID" value="-215815085" />
+        <env name="WH" value="0" />
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="OWNERID" value="126850076" />
+        <env name="VKAPI" value="830400db1ba458bbfbb67c15fba6dadc11e807cc2620ea2bd0fbfdbb6ffa6a0ead03aebf9fbe46fee57af" />
+        <env name="TOKEN" value="360853899:AAFH5OLI-l5fHXovtb2eH48jGNaIKBh90JM" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Jumoreski" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="CompoundRunConfigurationType" factoryName="Compound Run Configuration">
@@ -351,8 +356,8 @@
       <item index="1" class="java.lang.String" itemvalue="Python.test_event" />
       <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in testVK.py" />
       <item index="3" class="java.lang.String" itemvalue="Python.config" />
-      <item index="4" class="java.lang.String" itemvalue="Python.bot" />
-      <item index="5" class="java.lang.String" itemvalue="Python tests.Unittests in test_event.py" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in test_event.py" />
+      <item index="5" class="java.lang.String" itemvalue="Python.bot" />
     </list>
     <recent_temporary>
       <list size="5">
@@ -651,7 +656,14 @@
       <option name="project" value="LOCAL" />
       <updated>1503120800317</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Fix bugs">
+      <created>1503122184792</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1503122184792</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -683,9 +695,9 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27825466" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962447" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30180806" sideWeight="0.5028612" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30180806" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30180806" sideWeight="0.49713877" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32823366" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32823366" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -741,7 +753,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -759,8 +771,13 @@
           <caret line="29" column="62" lean-forward="false" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="62" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <element signature="e#172#592#0" expanded="false" />
-            <element signature="e#620#836#0" expanded="false" />
+            <element signature="e#680#896#0" expanded="false" />
+            <element signature="e#1022#1085#0" expanded="false" />
+            <element signature="e#1158#1215#0" expanded="false" />
+            <element signature="e#1288#1349#0" expanded="false" />
+            <element signature="e#1428#1489#0" expanded="false" />
+            <element signature="e#1567#1983#0" expanded="false" />
+            <element signature="e#2064#2129#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -782,6 +799,7 @@
             <element signature="e#317#1630#0" expanded="false" />
             <element signature="e#1674#1745#0" expanded="false" />
             <element signature="e#1771#1852#0" expanded="false" />
+            <element signature="e#1877#1939#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -820,8 +838,13 @@
           <caret line="29" column="23" lean-forward="true" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <element signature="e#172#592#0" expanded="false" />
-            <element signature="e#620#836#0" expanded="false" />
+            <element signature="e#680#896#0" expanded="false" />
+            <element signature="e#1022#1085#0" expanded="false" />
+            <element signature="e#1158#1215#0" expanded="false" />
+            <element signature="e#1288#1349#0" expanded="false" />
+            <element signature="e#1428#1489#0" expanded="false" />
+            <element signature="e#1567#1983#0" expanded="false" />
+            <element signature="e#2064#2129#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -836,6 +859,7 @@
             <element signature="e#317#1630#0" expanded="false" />
             <element signature="e#1674#1745#0" expanded="false" />
             <element signature="e#1771#1852#0" expanded="false" />
+            <element signature="e#1877#1939#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -885,6 +909,7 @@
             <element signature="e#317#1630#0" expanded="false" />
             <element signature="e#1674#1745#0" expanded="false" />
             <element signature="e#1771#1852#0" expanded="false" />
+            <element signature="e#1877#1939#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -941,6 +966,7 @@
             <element signature="e#317#1630#0" expanded="false" />
             <element signature="e#1674#1745#0" expanded="false" />
             <element signature="e#1771#1852#0" expanded="false" />
+            <element signature="e#1877#1939#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1002,7 +1028,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/aneks/all.txt" />
-    <entry file="file://$PROJECT_DIR$/text.txt" />
     <entry file="file://$PROJECT_DIR$/../Test/markov-text/markov.py" />
     <entry file="file://$PROJECT_DIR$/aneks/6">
       <provider selected="true" editor-type-id="text-editor">
@@ -1108,27 +1133,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bot.py">
+    <entry file="file://$PROJECT_DIR$/test_event.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="33" column="13" lean-forward="true" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-            <element signature="e#172#592#0" expanded="false" />
-            <element signature="e#620#836#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_event.py">
+    <entry file="file://$PROJECT_DIR$/text.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1146,6 +1159,32 @@
             <element signature="e#317#1630#0" expanded="false" />
             <element signature="e#1674#1745#0" expanded="false" />
             <element signature="e#1771#1852#0" expanded="false" />
+            <element signature="e#1877#1939#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="13" column="41" lean-forward="false" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#680#896#0" expanded="false" />
+            <element signature="e#1022#1085#0" expanded="false" />
+            <element signature="e#1158#1215#0" expanded="false" />
+            <element signature="e#1288#1349#0" expanded="false" />
+            <element signature="e#1428#1489#0" expanded="false" />
+            <element signature="e#1567#1983#0" expanded="false" />
+            <element signature="e#2064#2129#0" expanded="false" />
           </folding>
         </state>
       </provider>

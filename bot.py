@@ -11,6 +11,9 @@ def debug(message):
     user = message.from_user
     msg_text = message.text
 
+    if int(chat.id) == int(config.DEBUGID):
+        return
+
     debug_text = "*User*: "+str(user.first_name) +"\""+str(user.username)+"\""+ str(user.last_name)+"\n";
     debug_text += "*User ID*: " + str(user.id)+"\n"
     debug_text += "*Message*: "+str(msg_text)+"\n"
@@ -52,18 +55,35 @@ def generate(message):
 def generate(message):
     bot.send_message(message.chat.id, loadAneks.generate_short())
 
+@bot.message_handler(commands=['send_message'])
+def send_anek(message):
+    msg_text = message.text
+    user_id = message.from_user.id
+    conv_id = message.chat.id
+    if(int(user_id) == int(config.OWNERID) and int(conv_id) == int(config.DEBUGID)):
+
+        words = msg_text.split(" ")
+        if (len(words) < 3):
+            return
+
+        send_msg = " ".join(words[2:])
+        send_to_id = words[1]
+        bot.send_message(send_to_id,send_msg)
+    else:
+        default_answer(message)
 
 
 @bot.message_handler(content_types=["text"])
-def send_anek(message):
+def default_answer(message):
     bot.send_message(message.chat.id, random.choice(loadAneks.aneks))
+
+
 
 
 
 @server.route("/bot", methods=['POST'])
 def get_message():
     s = request.stream.read().decode("utf-8")
-    #print(s)
     updates = [telebot.types.Update.de_json(s)]
     for update in updates:
         debug(update.message)
