@@ -26,6 +26,7 @@ def UpdateAneks():
     debug_text=("*downloaded:* " + str(downloaded_count)) +"\n"
     debug_text+=("*current:* " + str(current_count))+"\n"
     debug_text+=("*need to download:* " + str(need_to_download))
+    print(debug_text)
     bot_debugger(debug_text)
 
     while (True):
