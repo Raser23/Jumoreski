@@ -31,22 +31,30 @@ def UpdateAneks():
     need_to_download = current_count - downloaded_count
     debug_text=("*downloaded:* " + str(downloaded_count)) +"\n"
     debug_text+=("*current:* " + str(current_count))+"\n"
-    debug_text+=("*need to download:* " + str(need_to_download))
+    debug_text+=("*need to download:* " + str(need_to_download)) +"\n"
     #print(debug_text)
-    bot_debugger(debug_text)
 
     while (True):
         try:
             current_posts = vk_api.wall.get(domain=config.domain, offset=count)[1:]
             for post in current_posts:
+
                 if (count >= need_to_download):
                     break
+                b = count%20 == 0 or count == need_to_download -1
+                if b:
+                    debug_text += str(count) + "..."
 
                 name = str(current_count - count-1)
                 text = post['text']
                 if(text != ""):
                     f = open(config.path+name, 'w')
                     f.write(text)
+                    if(b):
+                        debug_text+="downloaded and saved"+"\n"
+                else:
+                    if(b):
+                        debug_text += "is empty" + "\n"
                 count += 1
             if (count >= need_to_download):
                 break
@@ -57,8 +65,11 @@ def UpdateAneks():
     s = "downloaded = {}".format(str(current_count))
     try:
         tvkc.write(s)
+        debug_text += "config saved"
     except:
         print("err...")
+    bot_debugger(debug_text)
+
 
 import threading,time
 
