@@ -37,10 +37,10 @@ def send_debug(text):
     """
     #print(text)
     try:
-        bot.send_message(config.DEBUGID,edit_msg_text(text),parse_mode="Markdown")
+        bot.send_message(config.DEBUGID,text,disable_notification = True,parse_mode="Markdown")
     except Exception as inst:
         print(inst)
-        bot.send_message(config.DEBUGID, text)
+        bot.send_message(config.DEBUGID,text,disable_notification = True)
 
 import testVK
 testVK.start(send_debug)
@@ -60,7 +60,7 @@ def send_anek(message):
 def generate(message):
     bot.send_message(message.chat.id, loadAneks.generate_anek1())
 
-@bot.message_handler(commands=['generate-short'])
+@bot.message_handler(commands=['generateshort'])
 def generate(message):
     bot.send_message(message.chat.id, loadAneks.generate_short())
 
