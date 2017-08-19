@@ -24,10 +24,10 @@ def UpdateAneks():
     need_to_download = current_count - downloaded_count
 
 
-    text+=("downloaded: " + str(downloaded_count)) +"\n"
-    text+=("current: " + str(current_count))+"\n"
-    text+=("need to download: " + str(need_to_download))
-
+    text+=("*downloaded:* " + str(downloaded_count)) +"\n"
+    text+=("*current:* " + str(current_count))+"\n"
+    text+=("*need to download:* " + str(need_to_download))
+    debug(text)
 
     while (True):
         try:

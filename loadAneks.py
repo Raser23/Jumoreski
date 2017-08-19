@@ -53,6 +53,7 @@ for text in aneks:
 
 model2 = make_markov_model(data)
 
+
 from markov.sentence_generator import generate_random_sentence
 
 def generate_anek1():
