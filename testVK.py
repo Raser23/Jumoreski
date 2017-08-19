@@ -2,7 +2,7 @@ import vk
 import config
 import testVkConfig as VKconfig
 
-from bot import send_debug as debug
+from bot import send_debug as bot_debugger
 
 def prettify(str):
     while "  " in str:
@@ -26,7 +26,7 @@ def UpdateAneks():
     debug_text=("*downloaded:* " + str(downloaded_count)) +"\n"
     debug_text+=("*current:* " + str(current_count))+"\n"
     debug_text+=("*need to download:* " + str(need_to_download))
-    debug(debug_text)
+    bot_debugger(debug_text)
 
     while (True):
         try:

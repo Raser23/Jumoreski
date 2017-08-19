@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="86bad2c0-a5d3-4d82-b962-30c4c498c3b4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bot.py" afterPath="$PROJECT_DIR$/bot.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testVK.py" afterPath="$PROJECT_DIR$/testVK.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,15 +15,15 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="testVK.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="testVK.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/testVK.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="27" column="64" lean-forward="true" selection-start-line="27" selection-start-column="64" selection-end-line="28" selection-end-column="21" />
+            <state relative-caret-position="315">
+              <caret line="28" column="16" lean-forward="false" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
-                <element signature="e#117#273#0" expanded="false" />
-                <element signature="e#1596#1715#0" expanded="false" />
+                <element signature="e#124#280#0" expanded="false" />
+                <element signature="e#1610#1729#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -39,11 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bot.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="bot.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="31" column="14" lean-forward="false" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
+            <state relative-caret-position="329">
+              <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -107,12 +107,13 @@
         <option value="$PROJECT_DIR$/markov/sentence_generator.py" />
         <option value="$PROJECT_DIR$/config.py" />
         <option value="$PROJECT_DIR$/loadAneks.py" />
-        <option value="$PROJECT_DIR$/testVK.py" />
         <option value="$PROJECT_DIR$/bot.py" />
+        <option value="$PROJECT_DIR$/testVK.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="-1" />
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="811" />
@@ -569,7 +570,14 @@
       <option name="project" value="LOCAL" />
       <updated>1503114904228</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="More dubugging">
+      <created>1503115087865</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1503115087865</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -584,7 +592,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="811" extended-state="0" />
+    <frame x="-1" y="23" width="1440" height="811" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27825466" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -688,8 +696,8 @@
           <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
-            <element signature="e#117#273#0" expanded="false" />
-            <element signature="e#1596#1715#0" expanded="false" />
+            <element signature="e#124#280#0" expanded="false" />
+            <element signature="e#1610#1729#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -738,8 +746,8 @@
           <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
-            <element signature="e#117#273#0" expanded="false" />
-            <element signature="e#1596#1715#0" expanded="false" />
+            <element signature="e#124#280#0" expanded="false" />
+            <element signature="e#1610#1729#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -785,8 +793,8 @@
           <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
-            <element signature="e#117#273#0" expanded="false" />
-            <element signature="e#1596#1715#0" expanded="false" />
+            <element signature="e#124#280#0" expanded="false" />
+            <element signature="e#1610#1729#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -839,8 +847,8 @@
           <caret line="2" column="31" lean-forward="false" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
-            <element signature="e#117#273#0" expanded="false" />
-            <element signature="e#1596#1715#0" expanded="false" />
+            <element signature="e#124#280#0" expanded="false" />
+            <element signature="e#1610#1729#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1005,18 +1013,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testVK.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="27" column="64" lean-forward="true" selection-start-line="27" selection-start-column="64" selection-end-line="28" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-            <element signature="e#117#273#0" expanded="false" />
-            <element signature="e#1596#1715#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -1027,10 +1023,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="31" column="14" lean-forward="false" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
+        <state relative-caret-position="329">
+          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testVK.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="28" column="16" lean-forward="false" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#124#280#0" expanded="false" />
+            <element signature="e#1610#1729#0" expanded="false" />
           </folding>
         </state>
       </provider>
