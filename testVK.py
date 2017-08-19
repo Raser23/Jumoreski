@@ -37,7 +37,7 @@ def UpdateAneks():
     debug_text+=("*current:* " + str(current_count))+"\n"
     debug_text+=("*need to download:* " + str(need_to_download)) +"\n"
     #print(debug_text)
-
+    text =""
     while (True):
         try:
             current_posts = vk_api.wall.get(domain=config.domain, offset=count)[1:]
@@ -65,6 +65,7 @@ def UpdateAneks():
         except Exception as e:
             # To many requests
             print(e)
+            print("text: "+text)
             print(count)
             continue
     tvkc = open("downloadedc", "w")

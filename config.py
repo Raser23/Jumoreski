@@ -1,7 +1,7 @@
 import os
 
 domain = "jumoreski"
-path = "aneks/"
+path = "aneks\/"
 
 TOKEN = os.environ.get('TOKEN')
 VKTOKEN = os.environ.get('VKAPI')
