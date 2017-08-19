@@ -64,10 +64,10 @@ def Updater():
         UpdateAneks()
         time.sleep(config.UPDATETIME)
 
-t = threading.Thread(target=Updater)
-t.start()
-print("Updater setted")
-
+def set_updater():
+    t = threading.Thread(target=Updater)
+    t.start()
+    print("Updater setted")
 
 
 
