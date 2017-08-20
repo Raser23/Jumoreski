@@ -100,8 +100,10 @@ def clamp(value,a,b):
     return value
 
 def form_progress_bar(count,max_count):
+    if(max_count == 0):
+        return  form_progress_bar(100,100)
     l = 10
-    percent = int( clamp((count/max_count) * 100,0,100))
+    percent = int( clamp( (count/max_count) * 100,0,100))
     k = 100/l
     zl = percent/k
     if(percent % k != 0):
