@@ -69,7 +69,7 @@ tst_model = make_model("test/",5,f)
 
 models = {}
 
-for i in range(2,3):
+for i in range(2,4):
     models.setdefault(i,[])
     models[i] = make_model(config.path,i,f)
     print("Model number {} ready".format(i))
