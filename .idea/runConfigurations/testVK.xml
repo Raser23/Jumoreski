@@ -3,11 +3,11 @@
     <option name="INTERPRETER_OPTIONS" value="" />
     <option name="PARENT_ENVS" value="true" />
     <envs>
-      <env name="PYTHONUNBUFFERED" value="1" />
       <env name="DEBUGID" value="-215815085" />
       <env name="WH" value="0" />
+      <env name="PYTHONUNBUFFERED" value="1" />
       <env name="VKAPI" value="830400db1ba458bbfbb67c15fba6dadc11e807cc2620ea2bd0fbfdbb6ffa6a0ead03aebf9fbe46fee57af" />
-      <env name="TOKEN" value="364401428:AAGyfAXOuOwuqjS6NrcbTdUwuzim60GgPSU" />
+      <env name="TOKEN" value="320568977:AAHyfRntpGKcjpaGjwBJZkqaHFRk--D4Ag0" />
     </envs>
     <option name="SDK_HOME" value="" />
     <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />

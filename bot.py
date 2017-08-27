@@ -35,16 +35,13 @@ def send_debug(text):
     _italic text_
     [text](URL)
     """
-    #print(text)
+    print(text)
     try:
-        bot.send_message(config.DEBUGID,text,disable_notification = True,parse_mode="Markdown")
+        #bot.send_message(config.DEBUGID,text,disable_notification = True,parse_mode="Markdown")
+        pass
     except Exception as inst:
         print(inst)
-        bot.send_message(config.DEBUGID,text,disable_notification = True)
-
-import testVK
-testVK.start(send_debug)
-import loadAneks
+        #bot.send_message(config.DEBUGID,text,disable_notification = True)
 
 
 
@@ -54,11 +51,11 @@ def start(message):
 
 @bot.message_handler(commands=['anekdot'])
 def send_anek(message):
-    bot.send_message(message.chat.id, loadAneks.get_random())
+    bot.send_message(message.chat.id, Anekdotes.get_random())
 
 @bot.message_handler(commands=['generateshort'])
 def generate(message):
-    bot.send_message(message.chat.id, loadAneks.generate_short())
+    bot.send_message(message.chat.id, Anekdotes.generate_short())
 
 
 @bot.message_handler(regexp="/generate")
@@ -69,7 +66,7 @@ def generate(message):
     txt = txt.split(" ")
     index = txt[0][len("/generate"):]
     if(index == "hat"):
-        bot.send_message(message.chat.id, loadAneks.generate_hat_anek())
+        bot.send_message(message.chat.id, Anekdotes.generate_hat_anek())
         return
 
     if(index == ""):
@@ -78,13 +75,7 @@ def generate(message):
         index = int(index)
     if(index <1 or index>6):
         index = 2
-    bot.send_message(message.chat.id, loadAneks.generate_anek(index))
-
-
-
-
-
-
+    bot.send_message(message.chat.id, Anekdotes.generate_anek(index))
 
 
 @bot.message_handler(commands=['send_message'])
@@ -111,11 +102,11 @@ def send_anek(message):
 
 @bot.message_handler(content_types=["text"])
 def default_answer(message):
-    bot.send_message(message.chat.id, random.choice(loadAneks.aneks))
+    bot.send_message(message.chat.id, Anekdotes.get_random())
 
 
 
-
+#dvach
 
 @server.route("/bot", methods=['POST'])
 def get_message():
@@ -133,6 +124,10 @@ def webhook():
     bot.set_webhook(url=config.HOST +"/bot")
     return "ok", 200
 
+import testVK
+testVK.start(send_debug)
+import Anekdotes
+
 if(int(config.WH) == 1):
     print("Webhook setted")
     webhook()
@@ -142,3 +137,5 @@ else:
     print("Polling")
     bot.remove_webhook()
     bot.polling(none_stop = True)
+
+

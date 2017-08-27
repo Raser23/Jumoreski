@@ -3,7 +3,7 @@ import config
 
 
 
-
+#dvach
 
 def prettify(str):
     while "  " in str:
@@ -20,7 +20,7 @@ def func(a):
 
 bot_debugger = func
 
-def UpdateAneks():
+def UpdateAneks(save_func):
     import testVkConfig as VKconfig
     print("Start updating...")
     session = vk.AuthSession(access_token = config.VKTOKEN)
@@ -66,8 +66,8 @@ def UpdateAneks():
                 text = post['text']
 
                 if(text != ""):
-                    f = open(config.path+name, 'w')
-                    f.write(text)
+                    #print("here")
+                    save_func(text)
                     added_files+=1
                 count += 1
 
@@ -131,7 +131,7 @@ def set_updater():
 def start(debug):
     global bot_debugger
     bot_debugger = debug
-    set_updater()
+    #set_updater()
 
 
 

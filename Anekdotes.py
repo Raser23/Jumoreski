@@ -47,7 +47,7 @@ def make_data_for_model(aneks, count, func):
 
 def make_model(aneks,count,func):
     return make_markov_model(make_data_for_model(aneks,count,func))
-
+#dvach
 import DB
 def get_random():
     return DB.get_random_anek()
