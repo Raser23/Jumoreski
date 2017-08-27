@@ -8,15 +8,8 @@ def prettify(str):
     while "<br>" in str:
         str = str.replace("<br>","\n")
     return  str
-aneks = []
 
-def make_model(path,count,func):
-    onlyfiles = [f for f in listdir(path) if isfile(join(path, f))]
-    for text in onlyfiles:
-        file_path = path + text
-        f = open(file_path, 'r')
-        text = prettify(f.read())
-        aneks.append(text)
+def make_data_for_model(aneks, count, func):
 
     data = []
     for text in aneks:
@@ -50,45 +43,26 @@ def make_model(path,count,func):
 
         data += anek_data
     #print(data)
-    return make_markov_model(data)
+    return data
 
+def make_model(aneks,count,func):
+    return make_markov_model(make_data_for_model(aneks,count,func))
+
+import DB
 def get_random():
-    return choice(aneks)
+    return DB.get_random_anek()
 
-
-counter = 0
-def f(text):
-    return True
-def f1(text):
-    global counter
-    counter +=1
-    return counter == 3
-
-tst_model = make_model("test/",5,f)
-#TODO: сделать нормальное начало анеков
-
-models = {}
-
-for i in range(2,4):
-    models.setdefault(i,[])
-    models[i] = make_model(config.path,i,f)
-    print("Model number {} ready".format(i))
-
-def f2(text):
-    return "шляп" in text
-
-hat_model = make_model(config.path,2,f2)
-print("hat model ready")
+mdl = make_markov_model(DB.get_model("all_2"))
 
 from markov.sentence_generator import generate_random_sentence
 
 def generate_anek(model_index):
-    return generate_random_sentence(-1, models[model_index],max_words = (360*2)/model_index)
+    return generate_random_sentence(-1, mdl,max_words = (360*2))
 
 def generate_hat_anek():
-    return generate_random_sentence(-1, hat_model,max_words = 100)
+    return "Generating ... "#generate_random_sentence(-1, hat_model,max_words = 100)
 
 def generate_short():
-    return generate_random_sentence(-1, models[2],max_words=10)
+    return "Generating ... "#generate_random_sentence(-1, models[2],max_words=10)
 
 
