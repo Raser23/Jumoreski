@@ -8,7 +8,7 @@ VKTOKEN = os.environ.get('VKAPI')
 DEBUGID = os.environ.get('DEBUGID')
 OWNERID = os.environ.get('OWNERID')
 WH = os.environ.get('WH')
-
+DBURL = os.environ.get("DBURL")
 MINLIKES = -1
 
 UPDATETIME = 60 * 10

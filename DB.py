@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 from random import choice
 import hashlib
 #dvach
-client = MongoClient("mongodb://DB:qwerty12345@ds159953.mlab.com:59953/heroku_5dqf5tjw")
+client = MongoClient(config.DBURL)
 db = client["heroku_5dqf5tjw"]
 print("Connected to Database")
 
