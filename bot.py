@@ -35,13 +35,13 @@ def send_debug(text):
     _italic text_
     [text](URL)
     """
-    print(text)
+    #print(text)
     try:
-        #bot.send_message(config.DEBUGID,text,disable_notification = True,parse_mode="Markdown")
+        bot.send_message(config.DEBUGID,text,disable_notification = True,parse_mode="Markdown")
         pass
     except Exception as inst:
         print(inst)
-        #bot.send_message(config.DEBUGID,text,disable_notification = True)
+        bot.send_message(config.DEBUGID,text,disable_notification = True)
 
 
 
