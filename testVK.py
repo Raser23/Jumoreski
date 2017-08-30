@@ -144,4 +144,4 @@ def post_vk(text):
 
 
 
-post_vk()
+#post_vk()
