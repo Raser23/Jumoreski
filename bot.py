@@ -52,9 +52,6 @@ def start(message):
 def send_anek(message):
     bot.send_message(message.chat.id, Anekdotes.get_random())
 
-@bot.message_handler(commands=['generateshort'])
-def generate(message):
-    bot.send_message(message.chat.id, Anekdotes.generate_short())
 
 
 @bot.message_handler(regexp="/generate")
@@ -63,21 +60,22 @@ def generate(message):
     txt = message.text
 
     txt = txt.split(" ")
+    msg =""
     index = txt[0][len("/generate"):]
     if(index == "hat"):
-        bot.send_message(message.chat.id, Anekdotes.generate_hat_anek())
-        return
-
-    if(index == ""):
+        msg = Anekdotes.generate_hat_anek()
+    elif(index == "short"):
+        msg = Anekdotes.generate_short()
+    elif(index == ""):
         index = 2
     else:
         index = int(index)
-    if(index <1 or index>6):
-        index = 2
+        if(index <1 or index>6):
+            index = 2
+        msg = Anekdotes.generate_anek(index)
 
-    txt = Anekdotes.generate_anek(index)
-    vk.post_vk(txt)
-    bot.send_message(message.chat.id,txt )
+    vk.post_vk(msg)
+    bot.send_message(message.chat.id,msg )
 
 
 @bot.message_handler(commands=['send_message'])

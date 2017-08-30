@@ -63,6 +63,6 @@ def generate_hat_anek():
     return "Generating ... "#generate_random_sentence(-1, hat_model,max_words = 100)
 
 def generate_short():
-    return "Generating ... "#generate_random_sentence(-1, models[2],max_words=10)
+    return generate_random_sentence(-1, mdl,max_words=10)
 
 
