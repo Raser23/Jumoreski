@@ -5,7 +5,7 @@ import os
 import random
 bot = telebot.TeleBot(config.TOKEN)
 server = Flask(__name__)
-
+import testVK as vk
 def debug(message):
 
     chat = message.chat
@@ -44,7 +44,6 @@ def send_debug(text):
         bot.send_message(config.DEBUGID,text,disable_notification = True)
 
 
-
 @bot.message_handler(commands=['start'])
 def start(message):
     bot.reply_to(message, 'Hello, ' + message.from_user.first_name)
@@ -75,7 +74,10 @@ def generate(message):
         index = int(index)
     if(index <1 or index>6):
         index = 2
-    bot.send_message(message.chat.id, Anekdotes.generate_anek(index))
+
+    txt = Anekdotes.generate_anek(index)
+    vk.post_vk(txt)
+    bot.send_message(message.chat.id,txt )
 
 
 @bot.message_handler(commands=['send_message'])

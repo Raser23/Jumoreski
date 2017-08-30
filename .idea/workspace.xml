@@ -1,478 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="86bad2c0-a5d3-4d82-b962-30c4c498c3b4" name="Default" comment="Nice 512 mb RAM on heroku">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/-1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8800" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8802" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8804" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8805" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8807" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8808" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8809" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8812" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8813" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8814" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8816" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8819" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8821" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8822" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8823" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8824" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8825" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8826" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8827" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8833" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8835" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8836" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8837" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8839" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8840" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8841" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8844" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8846" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8847" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8848" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8849" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8850" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8851" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8853" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8854" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8855" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8856" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8857" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8858" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8859" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8860" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8863" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8865" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8866" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8867" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8868" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8869" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8870" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8872" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8874" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8875" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8876" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8882" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8883" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8885" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8886" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8889" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8893" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8895" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8896" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8898" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8899" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8901" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8903" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8904" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8910" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8911" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8912" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8913" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8916" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8917" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8919" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8920" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8921" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8923" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8924" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8925" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8926" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8927" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8928" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8929" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8930" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8933" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8934" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8936" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8937" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8939" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8941" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8945" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8947" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8948" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8949" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8952" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8954" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8955" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8956" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8957" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8958" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8959" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8960" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8962" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8963" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8964" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8966" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8967" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8969" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8970" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8971" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8975" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8980" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8981" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8982" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8985" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8987" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8988" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8989" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8990" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8992" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8994" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8996" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8997" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/8998" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9000" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9001" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9002" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9005" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9009" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9010" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9012" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9016" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9017" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9019" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9020" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9021" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9025" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9026" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9027" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9028" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9033" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9035" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9036" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9037" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9041" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9042" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9046" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9052" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9053" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9055" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9056" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9057" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9059" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9069" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9070" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9071" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9074" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9075" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9076" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9078" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9079" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9080" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9082" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9083" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9087" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9088" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9089" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9090" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9093" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9096" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9099" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9102" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9103" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9104" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9105" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9107" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9109" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9110" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9111" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9112" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9114" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9117" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9118" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9119" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9120" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9121" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9122" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9123" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9124" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9125" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9127" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9128" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9130" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9131" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9134" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9135" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9138" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9140" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9141" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9144" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9145" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9146" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9147" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9149" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9150" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9151" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9152" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9153" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9154" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9156" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9157" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9158" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9159" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9160" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9162" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9163" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9166" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9167" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9168" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9170" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9173" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9174" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9175" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9176" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9178" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9179" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9182" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9183" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9184" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9185" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9186" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9187" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9188" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9189" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9190" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9191" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9192" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9195" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9198" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9199" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9202" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9203" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9204" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9205" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9206" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9207" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9208" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9209" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9211" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9213" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9215" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9219" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9222" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9223" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9224" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9225" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9226" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9227" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9228" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9229" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9230" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9232" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9233" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9236" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9238" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9239" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9241" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9242" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9243" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9244" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9245" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9247" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9249" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9250" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9251" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9252" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9253" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9254" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9257" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9258" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9259" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9260" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9262" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9263" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9265" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9266" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9267" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9268" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9269" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9270" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9271" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9272" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9273" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9274" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9275" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9277" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9279" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9280" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9282" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9283" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9284" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9287" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9290" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9291" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9292" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9294" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9295" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9296" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9297" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9298" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9299" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9300" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9302" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9304" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9306" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9307" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9308" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9309" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9310" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9312" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9313" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9314" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9315" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9317" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9318" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9321" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9322" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9323" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9324" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9325" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9326" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9328" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9329" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9330" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9332" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9333" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9334" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9335" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9337" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9339" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9340" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9341" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9342" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9343" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9344" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9345" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9348" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9349" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9350" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9351" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9352" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9354" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9356" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9357" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9358" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9359" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9360" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9361" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9362" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9363" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9365" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9367" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9370" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9371" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9372" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9374" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9375" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9379" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9381" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9385" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9386" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9387" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9389" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9390" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9391" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9392" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9393" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9394" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9397" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9400" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9401" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9402" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9403" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9404" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9405" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9407" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9408" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9409" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9410" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9411" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9412" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9413" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9414" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9415" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9417" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9418" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9419" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9422" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9423" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9424" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9425" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9427" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9430" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9431" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9434" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9435" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9436" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9438" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9439" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9440" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9441" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9442" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9446" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9447" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9448" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9450" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9451" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9452" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9453" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9455" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9456" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9457" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9458" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9459" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9460" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9461" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9462" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9463" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9464" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9465" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9466" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9468" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9469" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9470" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9471" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9472" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9473" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9478" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9480" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9481" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9482" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9483" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9484" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9485" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9486" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9487" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9488" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9489" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9490" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9492" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9493" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9494" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9495" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9496" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9500" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9503" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9504" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9505" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9506" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9508" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9510" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9511" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9513" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9514" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9515" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9516" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/9517" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/tst" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations/testVK.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations/testVK.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    <list default="true" id="86bad2c0-a5d3-4d82-b962-30c4c498c3b4" name="Default" comment="Commit and push">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/Jumoreski.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/runConfigurations/testVK.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bot.py" afterPath="$PROJECT_DIR$/bot.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testVK.py" afterPath="$PROJECT_DIR$/testVK.py" />
     </list>
     <list id="2f273b44-d33e-446a-8461-e0973d2d37da" name="Nice 512 mb RAM on heroku" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/1010" afterPath="" />
@@ -3533,6 +3071,7 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/974" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/aneks/984" afterPath="" />
     </list>
+    <ignored mask="*.?ml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -3549,13 +3088,16 @@
       <file leaf-file-name="testVK.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testVK.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+            <state relative-caret-position="364">
+              <caret line="140" column="27" lean-forward="false" selection-start-line="140" selection-start-column="27" selection-end-line="140" selection-end-column="27" />
               <folding>
                 <element signature="e#58#214#0" expanded="false" />
                 <element signature="e#234#246#0" expanded="false" />
                 <element signature="e#2558#2640#0" expanded="false" />
                 <element signature="e#2686#3123#0" expanded="false" />
+                <element signature="e#3166#3179#0" expanded="false" />
+                <element signature="e#3205#3245#0" expanded="false" />
+                <element signature="e#3270#3333#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -3596,8 +3138,8 @@
       <file leaf-file-name="config.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+            <state relative-caret-position="30">
+              <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -3606,17 +3148,20 @@
       <file leaf-file-name="DB.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DB.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="31" column="20" lean-forward="false" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="20" />
+            <state relative-caret-position="94">
+              <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
-                <element signature="e#355#430#0" expanded="false" />
-                <element signature="e#459#516#0" expanded="false" />
-                <element signature="e#543#614#0" expanded="false" />
-                <element signature="e#943#1129#0" expanded="false" />
-                <element signature="e#1167#1378#0" expanded="false" />
-                <element signature="e#1405#1453#0" expanded="false" />
-                <element signature="e#1488#1781#0" expanded="false" />
+                <element signature="e#301#376#0" expanded="false" />
+                <element signature="e#405#462#0" expanded="false" />
+                <element signature="e#489#560#0" expanded="false" />
+                <element signature="e#590#661#0" expanded="false" />
+                <element signature="e#688#731#0" expanded="false" />
+                <element signature="e#766#851#0" expanded="false" />
+                <element signature="e#889#1075#0" expanded="false" />
+                <element signature="e#1113#1324#0" expanded="false" />
+                <element signature="e#1351#1399#0" expanded="false" />
+                <element signature="e#1434#1727#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -3625,18 +3170,22 @@
       <file leaf-file-name="bot.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-57">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="188">
+              <caret line="70" column="20" lean-forward="true" selection-start-line="70" selection-start-column="20" selection-end-line="70" selection-end-column="20" />
               <folding>
-                <element signature="e#1299#1362#0" expanded="false" />
-                <element signature="e#1435#1492#0" expanded="false" />
-                <element signature="e#1570#1631#0" expanded="false" />
-                <element signature="e#1702#2105#0" expanded="false" />
-                <element signature="e#2184#2600#0" expanded="false" />
-                <element signature="e#2671#2713#0" expanded="false" />
-                <element signature="e#2793#2850#0" expanded="false" />
-                <element signature="e#2925#3130#0" expanded="false" />
-                <element signature="e#3170#3256#0" expanded="false" />
+                <element signature="e#0#14#0" expanded="true" />
+                <element signature="e#192#703#0" expanded="false" />
+                <element signature="e#731#1249#0" expanded="false" />
+                <element signature="e#1317#1380#0" expanded="false" />
+                <element signature="e#1453#1510#0" expanded="false" />
+                <element signature="e#1588#1649#0" expanded="false" />
+                <element signature="e#2237#2653#0" expanded="false" />
+                <element signature="e#2724#2766#0" expanded="false" />
+                <element signature="e#2846#2903#0" expanded="false" />
+                <element signature="e#2978#3183#0" expanded="false" />
+                <element signature="e#3223#3309#0" expanded="false" />
+                <element signature="e#3397#3529#0" expanded="false" />
+                <element signature="e#3540#3615#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -3695,11 +3244,11 @@
         <option value="$PROJECT_DIR$/loadAneks.py" />
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/Anekdotes.py" />
-        <option value="$PROJECT_DIR$/config.py" />
-        <option value="$PROJECT_DIR$/DB.py" />
-        <option value="$PROJECT_DIR$/testVK.py" />
         <option value="$PROJECT_DIR$/UpdateDB.py" />
         <option value="$PROJECT_DIR$/input.txt" />
+        <option value="$PROJECT_DIR$/DB.py" />
+        <option value="$PROJECT_DIR$/config.py" />
+        <option value="$PROJECT_DIR$/testVK.py" />
         <option value="$PROJECT_DIR$/bot.py" />
       </list>
     </option>
@@ -3748,7 +3297,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Ignored.Files" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -3769,7 +3318,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test">
+  <component name="RunManager" selected="Python.testVK">
     <configuration default="false" name="loadAneks" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -3836,28 +3385,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="bot" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-        <env name="DEBUGID" value="-215815085" />
-        <env name="WH" value="0" />
-        <env name="VKAPI" value="830400db1ba458bbfbb67c15fba6dadc11e807cc2620ea2bd0fbfdbb6ffa6a0ead03aebf9fbe46fee57af" />
-        <env name="TOKEN" value="320568977:AAHyfRntpGKcjpaGjwBJZkqaHFRk--D4Ag0" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Jumoreski" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bot.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
     <configuration default="false" name="Unittests in test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -3871,6 +3398,29 @@
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/test.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="false" name="bot" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DEBUGID" value="-215815085" />
+        <env name="WH" value="0" />
+        <env name="VKAPI" value="830400db1ba458bbfbb67c15fba6dadc11e807cc2620ea2bd0fbfdbb6ffa6a0ead03aebf9fbe46fee57af" />
+        <env name="DBURL" value="mongodb://DB:qwerty12345@ds159953.mlab.com:59953/heroku_5dqf5tjw" />
+        <env name="TOKEN" value="320568977:AAHyfRntpGKcjpaGjwBJZkqaHFRk--D4Ag0" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Jumoreski" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="CompoundRunConfigurationType" factoryName="Compound Run Configuration">
@@ -4001,13 +3551,13 @@
       <item index="3" class="java.lang.String" itemvalue="Python.loadAneks" />
       <item index="4" class="java.lang.String" itemvalue="Python.DB" />
       <item index="5" class="java.lang.String" itemvalue="Python.UpdateDB" />
-      <item index="6" class="java.lang.String" itemvalue="Python.bot" />
-      <item index="7" class="java.lang.String" itemvalue="Python tests.Unittests in test.py" />
+      <item index="6" class="java.lang.String" itemvalue="Python tests.Unittests in test.py" />
+      <item index="7" class="java.lang.String" itemvalue="Python.bot" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test.py" />
-        <item index="1" class="java.lang.String" itemvalue="Python.bot" />
+        <item index="0" class="java.lang.String" itemvalue="Python.bot" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test.py" />
         <item index="2" class="java.lang.String" itemvalue="Python.UpdateDB" />
         <item index="3" class="java.lang.String" itemvalue="Python.DB" />
         <item index="4" class="java.lang.String" itemvalue="Python.loadAneks" />
@@ -4028,20 +3578,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1499439146976</updated>
-    </task>
-    <task id="LOCAL-00030" summary="More dubugging">
-      <created>1503117167835</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1503117167835</updated>
-    </task>
-    <task id="LOCAL-00031" summary="Fix bugs">
-      <created>1503117453488</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1503117453488</updated>
     </task>
     <task id="LOCAL-00032" summary="Fix bugs">
       <created>1503117721402</created>
@@ -4372,7 +3908,21 @@
       <option name="project" value="LOCAL" />
       <updated>1503828573758</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="Commit and push">
+      <created>1504017702983</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1504017702985</updated>
+    </task>
+    <task id="LOCAL-00080" summary="Commit and push">
+      <created>1504018241757</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1504018241757</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -4405,16 +3955,16 @@
     <frame x="0" y="23" width="1440" height="811" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16094421" sideWeight="0.49203187" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15625" sideWeight="0.49203187" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871014" sideWeight="0.49713877" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30180806" sideWeight="0.50858366" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30097088" sideWeight="0.6587983" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32732317" sideWeight="0.49713877" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5700416" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22052705" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43396226" sideWeight="0.7173611" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5811373" sideWeight="0.5028612" order="11" side_tool="true" content_ui="tabs" x="862" y="160" width="458" height="502" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43396226" sideWeight="0.28263888" order="11" side_tool="true" content_ui="tabs" x="862" y="160" width="458" height="502" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3018598" sideWeight="0.5079681" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -4480,7 +4030,8 @@
     <MESSAGE value="More generate and shlyapa 2" />
     <MESSAGE value="Nice 512 mb RAM on heroku" />
     <MESSAGE value="New rqrmnts" />
-    <option name="LAST_COMMIT_MESSAGE" value="New rqrmnts" />
+    <MESSAGE value="Commit and push" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit and push" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -4512,6 +4063,9 @@
             <element signature="e#234#246#0" expanded="false" />
             <element signature="e#2558#2640#0" expanded="false" />
             <element signature="e#2686#3123#0" expanded="false" />
+            <element signature="e#3166#3179#0" expanded="false" />
+            <element signature="e#3205#3245#0" expanded="false" />
+            <element signature="e#3270#3333#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -4567,6 +4121,9 @@
             <element signature="e#234#246#0" expanded="false" />
             <element signature="e#2558#2640#0" expanded="false" />
             <element signature="e#2686#3123#0" expanded="false" />
+            <element signature="e#3166#3179#0" expanded="false" />
+            <element signature="e#3205#3245#0" expanded="false" />
+            <element signature="e#3270#3333#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -4696,14 +4253,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/downloadedc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -4718,19 +4267,6 @@
           <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
             <element signature="e#31#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testVK.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-          <folding>
-            <element signature="e#58#214#0" expanded="false" />
-            <element signature="e#234#246#0" expanded="false" />
-            <element signature="e#2558#2640#0" expanded="false" />
-            <element signature="e#2686#3123#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -4766,37 +4302,68 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/input.txt" />
+    <entry file="file://$PROJECT_DIR$/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testVK.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="140" column="27" lean-forward="false" selection-start-line="140" selection-start-column="27" selection-end-line="140" selection-end-column="27" />
+          <folding>
+            <element signature="e#58#214#0" expanded="false" />
+            <element signature="e#234#246#0" expanded="false" />
+            <element signature="e#2558#2640#0" expanded="false" />
+            <element signature="e#2686#3123#0" expanded="false" />
+            <element signature="e#3166#3179#0" expanded="false" />
+            <element signature="e#3205#3245#0" expanded="false" />
+            <element signature="e#3270#3333#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/DB.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="31" column="20" lean-forward="false" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="20" />
+        <state relative-caret-position="94">
+          <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
-            <element signature="e#355#430#0" expanded="false" />
-            <element signature="e#459#516#0" expanded="false" />
-            <element signature="e#543#614#0" expanded="false" />
-            <element signature="e#943#1129#0" expanded="false" />
-            <element signature="e#1167#1378#0" expanded="false" />
-            <element signature="e#1405#1453#0" expanded="false" />
-            <element signature="e#1488#1781#0" expanded="false" />
+            <element signature="e#301#376#0" expanded="false" />
+            <element signature="e#405#462#0" expanded="false" />
+            <element signature="e#489#560#0" expanded="false" />
+            <element signature="e#590#661#0" expanded="false" />
+            <element signature="e#688#731#0" expanded="false" />
+            <element signature="e#766#851#0" expanded="false" />
+            <element signature="e#889#1075#0" expanded="false" />
+            <element signature="e#1113#1324#0" expanded="false" />
+            <element signature="e#1351#1399#0" expanded="false" />
+            <element signature="e#1434#1727#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-57">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="188">
+          <caret line="70" column="20" lean-forward="true" selection-start-line="70" selection-start-column="20" selection-end-line="70" selection-end-column="20" />
           <folding>
-            <element signature="e#1299#1362#0" expanded="false" />
-            <element signature="e#1435#1492#0" expanded="false" />
-            <element signature="e#1570#1631#0" expanded="false" />
-            <element signature="e#1702#2105#0" expanded="false" />
-            <element signature="e#2184#2600#0" expanded="false" />
-            <element signature="e#2671#2713#0" expanded="false" />
-            <element signature="e#2793#2850#0" expanded="false" />
-            <element signature="e#2925#3130#0" expanded="false" />
-            <element signature="e#3170#3256#0" expanded="false" />
+            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#192#703#0" expanded="false" />
+            <element signature="e#731#1249#0" expanded="false" />
+            <element signature="e#1317#1380#0" expanded="false" />
+            <element signature="e#1453#1510#0" expanded="false" />
+            <element signature="e#1588#1649#0" expanded="false" />
+            <element signature="e#2237#2653#0" expanded="false" />
+            <element signature="e#2724#2766#0" expanded="false" />
+            <element signature="e#2846#2903#0" expanded="false" />
+            <element signature="e#2978#3183#0" expanded="false" />
+            <element signature="e#3223#3309#0" expanded="false" />
+            <element signature="e#3397#3529#0" expanded="false" />
+            <element signature="e#3540#3615#0" expanded="false" />
           </folding>
         </state>
       </provider>
