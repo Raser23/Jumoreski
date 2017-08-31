@@ -9,7 +9,7 @@ def writer():
         print("pinging")
         r = http.request('GET', config.HOST +"/wakeup")
         print(r.status)
-        time.sleep(config.POSTCD)
+        time.sleep(60*5)
     pass
 
 t1 = threading.Thread(target=writer)
