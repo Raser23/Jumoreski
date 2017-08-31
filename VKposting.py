@@ -5,7 +5,7 @@ import threading
 import config
 def writer():
     while(True):
-        testVK.post_vk(Anekdotes.generate_anek(2))
+        testVK.post_vk(Anekdotes.generate_post())
         print("posted")
         time.sleep(config.POSTCD)
     pass

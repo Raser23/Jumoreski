@@ -25,25 +25,25 @@ def form_anek(post):
 
 
 def get_random_anek():
-    return list(db.anekdotes.aggregate([{"$sample": {"size": 1}}]))[0]["text"]
+    return list(db.anekdotesb.aggregate([{"$sample": {"size": 1}}]))[0]["text"]
 
 def get_all_aneks():
-    b = db.anekdotes.find()
+    b = db.anekdotesb.find()
     #print([a["text"] for a in b])
     return [a["text"] for a in b]
 
 def get_random_aneks(count):
-    return  [a["text"] for a in list(db.anekdotes.aggregate([{"$sample": {"size": count}}]))]
+    return  [a["text"] for a in list(db.anekdotesb.aggregate([{"$sample": {"size": count}}]))]
 
-anekdotes = []
+anekdotesb = []
 
 def add_anek(post):
     anek = form_anek(post)
-    if (db.anekdotes.find_one({"hash": anek["hash"]}) != None):
+    if (db.anekdotesb.find_one({"hash": anek["hash"]}) != None):
         #print("anek already in db")
         return
     #print(anek)
-    str(db.anekdotes.insert_one(anek))
+    str(db.anekdotesb.insert_one(anek))
 
 def add_model(model_name,data):
     if (db.models.find_one({"name": model_name}) != None):
