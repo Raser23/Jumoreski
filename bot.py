@@ -106,7 +106,7 @@ def default_answer(message):
 
 
 
-#dvach
+#dvachdvachdvach
 
 @server.route("/bot", methods=['POST'])
 def get_message():
@@ -123,11 +123,17 @@ def webhook():
     bot.remove_webhook()
     bot.set_webhook(url=config.HOST +"/bot")
     return "ok", 200
+#dvach
+@server.route("/wakeup")
+def wakeup():
+    print("pinged")
+    return "Never sleeps", 200
 
 import testVK
 testVK.start(send_debug)
 import Anekdotes
 import VKposting
+import NotSleeping
 if(int(config.WH) == 1):
     print("Webhook setted")
     webhook()
