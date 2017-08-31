@@ -72,7 +72,7 @@ def generate_anek_b():
 def generate_post():
     text ="Юмореска:\n"
     text +=generate_anek(2)
-    text+="Анек уровня Б\b"
+    text+="\nАнек уровня Б\n"
     text+=generate_anek_b()
     return text
 
