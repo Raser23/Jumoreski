@@ -53,7 +53,7 @@ def get_random():
     return DB.get_random_anek()
 
 mdl = make_markov_model(DB.get_model("all_2_1")+DB.get_model("all_2_2"))
-mdl_b = make_markov_model(DB.get_model("all_b_1")+DB.get_model("all_b_2")+DB.get_model("all_b_3"))
+mdl_b = make_markov_model(DB.get_model("all_b_1")+DB.get_model("all_b_2"))
 from markov.sentence_generator import generate_random_sentence
 
 def generate_anek(model_index):
