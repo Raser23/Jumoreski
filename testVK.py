@@ -67,7 +67,7 @@ def UpdateAneks(save_func):
 
                 if(text != ""):
                     #print("here")
-                    save_func(text)
+                    save_func(post)
                     added_files+=1
                 count += 1
 

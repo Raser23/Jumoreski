@@ -7,7 +7,7 @@ from random import choice
 import hashlib
 #dvach
 client = MongoClient(config.DBURL)
-db = client["heroku_5dqf5tjw"]
+db = client["heroku_nvrtrh57"]
 print("Connected to Database")
 
 def prettify(str):
@@ -18,29 +18,32 @@ def prettify(str):
 def hash_string(text):
     return hashlib.md5(str(text).encode('utf-8')).hexdigest()
 
-def form_anek(text):
-    text = prettify(text)
-    return {"text":text,"hash":hash_string(text)}
+def form_anek(post):
+    likesCount = post["likes"]["count"]
+    text = prettify(post["text"])
+    return {"text":text,"hash":hash_string(text),"likes":likesCount}
 
 
 def get_random_anek():
-    return  list(db.aneks.aggregate([{"$sample": {"size": 1}}]))[0]["text"]
+    return list(db.anekdotes.aggregate([{"$sample": {"size": 1}}]))[0]["text"]
 
 def get_all_aneks():
-    return [a["text"] for a in db.aneks.find()]
+    b = db.anekdotes.find()
+    #print([a["text"] for a in b])
+    return [a["text"] for a in b]
 
 def get_random_aneks(count):
-    return  [a["text"] for a in list(db.aneks.aggregate([{"$sample": {"size": count}}]))]
+    return  [a["text"] for a in list(db.anekdotes.aggregate([{"$sample": {"size": count}}]))]
 
-aneks = []
+anekdotes = []
 
-def add_anek(text):
-    #print("adding")
-    anek = form_anek(text)
-    if (db.aneks.find_one({"hash": anek["hash"]}) != None):
-        # print("anek already in db")
+def add_anek(post):
+    anek = form_anek(post)
+    if (db.anekdotes.find_one({"hash": anek["hash"]}) != None):
+        #print("anek already in db")
         return
-    db.aneks.insert_one(anek)
+    #print(anek)
+    str(db.anekdotes.insert_one(anek))
 
 def add_model(model_name,data):
     if (db.models.find_one({"name": model_name}) != None):
