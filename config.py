@@ -10,6 +10,7 @@ OWNERID = os.environ.get('OWNERID')
 WH = os.environ.get('WH')
 DBURL = os.environ.get("DBURL")
 MINLIKES = -1
+POSTCD = 60 * 45
 
 UPDATETIME = 60 * 10
 HOST = 'https://jumoreski.herokuapp.com'

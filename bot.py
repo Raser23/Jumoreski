@@ -127,7 +127,7 @@ def webhook():
 import testVK
 testVK.start(send_debug)
 import Anekdotes
-
+import VKposting
 if(int(config.WH) == 1):
     print("Webhook setted")
     webhook()
