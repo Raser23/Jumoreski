@@ -57,7 +57,7 @@ def get_random():
 from markov.sentence_generator import generate_random_sentence
 
 def generate_anek(model_index):
-    return "Сережа ебанат"#generate_random_sentence(-1, mdl,max_words = (360*2))
+    return generate_random_sentence(-1, mdl,max_words = (360*2))
 
 def generate_hat_anek():
     return "Generating ... "#generate_random_sentence(-1, hat_model,max_words = 100)
