@@ -53,7 +53,6 @@ def get_random():
     return DB.get_random_anek()
 
 mdl = make_markov_model(DB.get_model("all_2_1")+DB.get_model("all_2_2"))
-mdl_b = make_markov_model(DB.get_model("all_b_1")+DB.get_model("all_b_2"))
 from markov.sentence_generator import generate_random_sentence
 
 def generate_anek(model_index):
@@ -65,14 +64,10 @@ def generate_hat_anek():
 def generate_short():
     return generate_random_sentence(-1, mdl,max_words=10)
 
-def generate_anek_b():
-    return generate_random_sentence(-1, mdl_b,max_words = (360*2))
 
 
 def generate_post():
     text ="Юмореска:\n"
-    text +=generate_anek(2)
-    text+="\n\n\n\Анек уровня Б:\n"
-    text+=generate_anek_b()
+    text += generate_anek(2)
     return text
 
