@@ -1,6 +1,6 @@
 import os
 
-domain = "baneks"
+domain = "jumoreski"
 path = "aneks/"
 #dvach
 TOKEN = os.environ.get('TOKEN')

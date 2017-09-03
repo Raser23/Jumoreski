@@ -10,7 +10,11 @@ import Anekdotes
 
 
 #aneks = DB.get_all_aneks()
-aneks = []
-data = Anekdotes.make_data_for_model(aneks,2,f)
-mdl = Anekdotes.make_markov_model(data)
-print(Anekdotes.generate(mdl))
+aneks = DB.get_all_aneks()
+print("Aneks getted")
+data = Anekdotes.make_data_for_model(aneks[:5000],2,f)
+DB.add_model("all_1",data)
+print("Model loaded")
+data = Anekdotes.make_data_for_model(aneks[5000:],2,f)
+DB.add_model("all_2",data)
+print("Model loaded")

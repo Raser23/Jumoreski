@@ -74,7 +74,7 @@ def generate(message):
             index = 2
         msg = Anekdotes.generate_anek(index)
 
-    vk.post_vk(msg)
+    #vk.post_vk(msg)
     bot.send_message(message.chat.id,msg )
 
 
