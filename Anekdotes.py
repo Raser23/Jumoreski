@@ -21,7 +21,7 @@ def make_data_for_model(aneks, count, func):
         words = text.split(" ")
 
         for k in range(count):
-            anek_data.append("#START#")
+            #anek_data.append("#START#")
             start_s = " ".join(words[:k])
             if(start_s !="" and start_s!=" "):
                 anek_data.append(start_s)
@@ -38,6 +38,7 @@ def make_data_for_model(aneks, count, func):
             last_s = " ".join(words[j+count:])
             if(last_s!=" " and last_s!=""):
                 anek_data.append(last_s)
+
             anek_data.append("#END#")
 
 
@@ -52,11 +53,11 @@ import DB
 def get_random():
     return DB.get_random_anek()
 
-mdl = make_markov_model(DB.get_model("all_2_1")+DB.get_model("all_2_2"))
+#mdl = make_markov_model(DB.get_model("all_2_1")+DB.get_model("all_2_2"))
 from markov.sentence_generator import generate_random_sentence
 
 def generate_anek(model_index):
-    return generate_random_sentence(-1, mdl,max_words = (360*2))
+    return "Сережа ебанат"#generate_random_sentence(-1, mdl,max_words = (360*2))
 
 def generate_hat_anek():
     return "Generating ... "#generate_random_sentence(-1, hat_model,max_words = 100)
@@ -64,6 +65,8 @@ def generate_hat_anek():
 def generate_short():
     return generate_random_sentence(-1, mdl,max_words=10)
 
+def generate(model):
+    return generate_random_sentence(-1, model,max_words = (360*2))
 
 
 def generate_post():

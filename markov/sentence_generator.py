@@ -10,7 +10,7 @@ def generate_random_start(model):
 
     # Чтобы сгенерировать "правильное" начальное слово, используйте код ниже:
     # Правильные начальные слова - это те, что являлись началом предложений в корпусе
-    if 'END' in model:
+    if '#END#' in model:
         seed_word = '#END#'
         while seed_word == '#END#':
             seed_word = model['#END#'].return_weighted_random_word()
