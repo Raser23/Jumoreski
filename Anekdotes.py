@@ -70,7 +70,7 @@ def generate(model):
 
 
 def generate_post():
-    text ="Юмореска:\n"
+    #text ="Юмореска:\n"
     text += generate_anek(2)
     return text
 
