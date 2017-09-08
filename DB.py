@@ -26,11 +26,17 @@ def form_anek(post):
 
 def get_random_anek():
     return list(db.anekdotes.aggregate([{"$sample": {"size": 1}}]))[0]["text"]
+def get_random_anek_with_data():
+    return list(db.anekdotes.aggregate([{"$sample": {"size": 1}}]))[0]
 
 def get_all_aneks():
     b = db.anekdotes.find()
-    #print([a["text"] for a in b])
     return [a["text"] for a in b]
+def get_all_aneks_with_data():
+    b = db.anekdotes.find()
+    return [a for a in b]
+
+
 
 def get_random_aneks(count):
     return  [a["text"] for a in list(db.anekdotes.aggregate([{"$sample": {"size": count}}]))]

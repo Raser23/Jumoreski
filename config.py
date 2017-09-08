@@ -9,6 +9,7 @@ DEBUGID = os.environ.get('DEBUGID')
 OWNERID = os.environ.get('OWNERID')
 WH = os.environ.get('WH')
 DBURL = os.environ.get("DBURL")
+print(DBURL)
 MINLIKES = -1
 POSTCD = 60 * 45
 
