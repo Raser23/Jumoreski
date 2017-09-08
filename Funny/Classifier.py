@@ -1,5 +1,5 @@
 from sklearn.externals import joblib
-clf = joblib.load('Funny\\Tengen_Toppa_mega_faggot.pkl')
+clf = joblib.load('Funny/Tengen_Toppa_mega_faggot.pkl')
 
 from Funny.Prettifier import prettify
 def predict(txt):
