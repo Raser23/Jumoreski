@@ -57,7 +57,7 @@ mdl = make_markov_model(DB.get_model("all_1")+DB.get_model("all_2"))
 from markov.sentence_generator import generate_random_sentence
 
 def generate_anek(model_index):
-    return generate_random_sentence(-1, mdl,max_words = (360*2),rand=-1)
+    return generate_random_sentence(-1, mdl,max_words = (50),rand=-1)
 
 def generate_hat_anek():
     return "Generating ... "#generate_random_sentence(-1, hat_model,max_words = 100)

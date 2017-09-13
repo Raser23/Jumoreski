@@ -52,8 +52,6 @@ def generate_random_sentence(length, markov_model, max_words = 500, epoch = 0,ra
 
     sentence[0] = sentence[0].capitalize()
     txt = ' '.join(sentence[:-1])
-    if (cl.predict(txt) != 1):
-        return generate_random_sentence(length, markov_model, max_words=max_words, epoch=epoch + 1)
 
     return txt
     return sentence
