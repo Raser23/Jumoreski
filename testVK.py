@@ -28,7 +28,7 @@ def UpdateAneks(save_func):
     f = open("downloadedc", 'r')
 
     downloaded_count = int( f.read())
-    print("Downloaded: "+str(downloaded_count))
+    #print("Downloaded: "+str(downloaded_count))
     posts = vk_api.wall.get(domain=config.domain, offset=0)
     current_count = posts[0]
     count = 0
@@ -36,6 +36,7 @@ def UpdateAneks(save_func):
     debug_text=("*downloaded:* " + str(downloaded_count)) + "\n"
     debug_text+=("*current:* " + str(current_count)) + "\n"
     debug_text+=("*need to download:* " + str(need_to_download)) + "\n"
+    print(debug_text)
     added_files = 0
     error_streak = 0
     sended = False

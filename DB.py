@@ -5,7 +5,17 @@ from os.path import isfile, join
 from bs4 import BeautifulSoup
 from random import choice
 import hashlib
-#dvach
+
+
+current_collection = "anekdotes"
+
+def set_collection(str):
+    global current_collection
+    current_collection = str
+def reset_collection():
+    global current_collection
+    current_collection = "anekdotes"
+
 client = MongoClient(config.DBURL)
 db = client["heroku_nvrtrh57"]
 print("Connected to Database")
@@ -19,37 +29,36 @@ def hash_string(text):
     return hashlib.md5(str(text).encode('utf-8')).hexdigest()
 
 def form_anek(post):
+    if("likes" not in post):
+        return {"text": post, "hash": hash_string(post), "likes": 0}
+
     likesCount = post["likes"]["count"]
     text = prettify(post["text"])
     return {"text":text,"hash":hash_string(text),"likes":likesCount}
 
 
 def get_random_anek():
-    return list(db.anekdotes.aggregate([{"$sample": {"size": 1}}]))[0]["text"]
+    return list(db[current_collection].aggregate([{"$sample": {"size": 1}}]))[0]["text"]
 def get_random_anek_with_data():
-    return list(db.anekdotes.aggregate([{"$sample": {"size": 1}}]))[0]
+    return list(db[current_collection].aggregate([{"$sample": {"size": 1}}]))[0]
 
 def get_all_aneks():
-    b = db.anekdotes.find()
+    b = db[current_collection].find()
     return [a["text"] for a in b]
 def get_all_aneks_with_data():
-    b = db.anekdotes.find()
+    b = db[current_collection].find()
     return [a for a in b]
 
-
-
 def get_random_aneks(count):
-    return  [a["text"] for a in list(db.anekdotes.aggregate([{"$sample": {"size": count}}]))]
+    return  [a["text"] for a in list(db[current_collection].aggregate([{"$sample": {"size": count}}]))]
 
 anekdotes = []
 
 def add_anek(post):
     anek = form_anek(post)
-    if (db.anekdotes.find_one({"hash": anek["hash"]}) != None):
-        #print("anek already in db")
+    if (db[current_collection].find_one({"hash": anek["hash"]}) != None):
         return
-    #print(anek)
-    str(db.anekdotes.insert_one(anek))
+    str(db[current_collection].insert_one(anek))
 
 def add_model(model_name,data):
     if (db.models.find_one({"name": model_name}) != None):

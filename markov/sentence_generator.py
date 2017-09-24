@@ -22,7 +22,6 @@ def generate_random_start(model,rand):
 
     return random.choice(list(model.keys()))
 
-import Funny.Classifier as cl
 def generate_random_sentence(length, markov_model, max_words = 500, epoch = 0,rand = -1):
     if epoch > 20:
         return "Я старался, но не смог сгенерировать анек"

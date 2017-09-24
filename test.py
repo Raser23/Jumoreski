@@ -12,6 +12,7 @@ import Anekdotes
 #aneks = DB.get_all_aneks()
 aneks = DB.get_all_aneks()
 print("Aneks getted")
+
 data = Anekdotes.make_data_for_model(aneks[:5000],2,f)
 DB.add_model("all_1",data)
 print("Model loaded")
