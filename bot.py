@@ -2,48 +2,19 @@ import telebot
 from flask import Flask, request
 import config
 import os
-import random
+
+
 bot = telebot.TeleBot(config.TOKEN)
 server = Flask(__name__)
+
 import testVK as vk
-def debug(message):
 
-    chat = message.chat
-    user = message.from_user
-    msg_text = message.text
+import Bot.Debug as Debugger
 
-    if int(chat.id) == int(config.DEBUGID):
-        return
-
-    debug_text = "*User*: "+str(user.first_name) +" "+ str(user.last_name)+"\n"
-    debug_text += "*Nickname*: "+str(user.username)+"\n"
-    debug_text += "*User ID*: " + str(user.id)+"\n"
-    debug_text += "*Message*: "+str(msg_text)+"\n"
-    debug_text += "*Chat ID*: "+str(chat.id)+"\n"
-    debug_text += "*Conversation type*: "+str(chat.type)
-    send_debug(debug_text)
-
-def send_debug(text):
-    def edit_msg_text(txt):
-        chars = ["*", "_", "[", "]", "(", ")", "\""]
-        for ch in chars:
-            while ch in txt:
-                txt = txt.replace(ch," ")
-        return txt
-    """"
-    *bold text *
-    _italic text_
-    [text](URL)
-    """
-    #print(text)
-    try:
-        bot.send_message(config.DEBUGID,text,disable_notification = True,parse_mode="Markdown")
-        pass
-    except Exception as inst:
-        print(inst)
-        bot.send_message(config.DEBUGID,text,disable_notification = True)
+Debugger.Start(bot.send_message)
 
 
+#message handlers
 @bot.message_handler(commands=['start'])
 def start(message):
     bot.reply_to(message, 'Hello, ' + message.from_user.first_name)
@@ -97,7 +68,7 @@ def send_anek(message):
 
 @bot.message_handler(commands=['i_nfo'])
 def send_anek(message):
-    debug(message)
+    Debugger.debug(message)
     default_answer(message)
 
 @bot.message_handler(content_types=["text"])
@@ -105,15 +76,14 @@ def default_answer(message):
     bot.send_message(message.chat.id, Anekdotes.get_random())
 
 
-
-#dvachdvachdvach
+#server handlers
 
 @server.route("/bot", methods=['POST'])
 def get_message():
     s = request.stream.read().decode("utf-8")
     updates = [telebot.types.Update.de_json(s)]
     for update in updates:
-        debug(update.message)
+        Debugger.debug(update.message)
 
     bot.process_new_updates(updates)
     return "ok", 200
@@ -123,14 +93,16 @@ def webhook():
     bot.remove_webhook()
     bot.set_webhook(url=config.HOST +"/bot")
     return "ok", 200
-#dvach
+
 @server.route("/wakeup")
 def wakeup():
-    print("pinged")
+    #print("pinged")
     return "Never sleeps", 200
 
 import testVK
-testVK.start(send_debug)
+
+testVK.start(Debugger.send_debug)
+
 import Anekdotes
 import VKposting
 import NotSleeping

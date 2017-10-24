@@ -4,6 +4,7 @@ from os.path import isfile, join
 from bs4 import BeautifulSoup
 from random import choice
 from markov.markov_model import make_markov_model
+
 def prettify(str):
     while "<br>" in str:
         str = str.replace("<br>","\n")
@@ -48,19 +49,22 @@ def make_data_for_model(aneks, count, func):
 
 def make_model(aneks,count,func):
     return make_markov_model(make_data_for_model(aneks,count,func))
-#dvach
+
+
 import DB
 def get_random():
     return DB.get_random_anek()
 
+#loading data
 mdl = make_markov_model(DB.get_model("test_1")+DB.get_model("test_2"))
+
 from markov.sentence_generator import generate_random_sentence
 
 def generate_anek(model_index):
     return generate_random_sentence(-1, mdl,max_words = (35),rand=-1)
 
 def generate_hat_anek():
-    return "Generating ... "#generate_random_sentence(-1, hat_model,max_words = 100)
+    return "Данная опция пока не доступна ... "#generate_random_sentence(-1, hat_model,max_words = 100)
 
 def generate_short():
     return generate_random_sentence(-1, mdl,max_words=10,rand=1)
@@ -70,7 +74,6 @@ def generate(model):
 
 
 def generate_post():
-    #text ="Юмореска:\n"
     text = ""
     text += generate_anek(2)
     return text

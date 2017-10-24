@@ -2,7 +2,6 @@ import os
 
 domain = "jumoreski"
 path = "aneks/"
-#dvach
 TOKEN = os.environ.get('TOKEN')
 VKTOKEN = os.environ.get('VKAPI')
 DEBUGID = os.environ.get('DEBUGID')
@@ -11,6 +10,7 @@ WH = os.environ.get('WH')
 DBURL = os.environ.get("DBURL")
 print(DBURL)
 MINLIKES = -1
+VKPOSTING = False
 POSTCD = 60 * 45
 
 UPDATETIME = 60 * 10

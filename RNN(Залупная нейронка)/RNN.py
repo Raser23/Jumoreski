@@ -8,7 +8,7 @@ from keras.layers import LSTM
 from keras.callbacks import ModelCheckpoint
 from keras.utils import np_utils
 # load ascii text and covert to lowercase
-filename = "/Users/nesadimsergej/Desktop/Jumoreski/RNN/text.txt"
+filename = "/Users/nesadimsergej/Desktop/Jumoreski/RNN(Залупная нейронка)/text.txt"
 raw_text = open(filename).read()
 raw_text = raw_text.lower()
 # create mapping of unique chars to integers, and a reverse mapping
