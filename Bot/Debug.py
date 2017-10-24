@@ -11,8 +11,7 @@ def debug(message):
     #TODO: че это ебать
     if message == None:
         return
-    if "chat" not in message:
-        return
+
     chat = message.chat
     user = message.from_user
     msg_text = message.text
