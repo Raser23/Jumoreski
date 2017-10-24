@@ -7,7 +7,7 @@ def func(a):
 send_message = func
 #
 def debug(message):
-
+    print(message)
     chat = message.chat
     user = message.from_user
     msg_text = message.text
