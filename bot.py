@@ -82,8 +82,9 @@ def default_answer(message):
 def get_message():
     s = request.stream.read().decode("utf-8")
     updates = [telebot.types.Update.de_json(s)]
-    for update in updates:
-        Debugger.debug(update.message)
+    #TODO: ебаный в рот
+    #for update in updates:
+    #    Debugger.debug(update.message)
 
     bot.process_new_updates(updates)
     return "ok", 200
