@@ -8,6 +8,9 @@ send_message = func
 #
 def debug(message):
     #print(message)
+    #TODO: че это ебать
+    if message == None:
+        return
     if "chat" not in message:
         return
     chat = message.chat
