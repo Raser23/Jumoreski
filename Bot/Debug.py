@@ -7,7 +7,7 @@ def func(a):
 send_message = func
 #
 def debug(message):
-    #print(message)
+    print(message)
     #TODO: че это ебать
     if message == None:
         return
