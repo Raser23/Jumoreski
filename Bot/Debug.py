@@ -5,7 +5,7 @@ def func(a):
     print("hui")
 
 send_message = func
-
+#
 def debug(message):
 
     chat = message.chat
@@ -19,7 +19,7 @@ def debug(message):
     debug_text += "*Message*: "+str(msg_text)+"\n"
     debug_text += "*Chat ID*: "+str(chat.id)+"\n"
     debug_text += "*Conversation type*: "+str(chat.type)
-    send_debug(debug_text,send_message)
+    send_debug(debug_text)
 
 def send_debug(text):
     def edit_msg_text(txt):
