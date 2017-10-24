@@ -10,7 +10,7 @@ WH = os.environ.get('WH')
 DBURL = os.environ.get("DBURL")
 print(DBURL)
 MINLIKES = -1
-VKPOSTING = False
+VKPOSTING = True
 POSTCD = 60 * 45
 
 UPDATETIME = 60 * 10
