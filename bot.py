@@ -84,7 +84,7 @@ def get_message():
     updates = [telebot.types.Update.de_json(s)]
     #TODO: ебаный в рот
     for update in updates:
-        print(update.message)
+        #print(update.message)
         Debugger.debug(update.message)
 
     bot.process_new_updates(updates)
