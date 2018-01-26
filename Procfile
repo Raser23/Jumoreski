@@ -1,1 +1,1 @@
-web: python requester.py
+web: python bot.py
