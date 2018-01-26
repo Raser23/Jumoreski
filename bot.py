@@ -33,6 +33,10 @@ def generate(message):
     txt = txt.split(" ")
     msg =""
     index = txt[0][len("/generate"):]
+
+    if("@" in index):
+        index = index[:index.find('@')]
+
     if(index == "hat"):
         msg = Anekdotes.generate_hat_anek()
     elif(index == "short"):
