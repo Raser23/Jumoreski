@@ -10,6 +10,7 @@ import VK as vk
 def predict(txt):
     if(not dataLoaded):
         load()
+        dataLoaded = True
     result = clf.predict([txt])[0]
     return result
 
