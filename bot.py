@@ -24,7 +24,7 @@ def start(message):
 def send_anek(message):
     bot.send_message(message.chat.id, Anekdotes.get_random())
 
-@bot.message_handler(regexp="/generate")
+@bot.message_handler(regexp="/predict")
 def pred(message):
 
     txt = message.txt.slit(" ")
