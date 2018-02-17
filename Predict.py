@@ -8,6 +8,7 @@ def predict(txt):
     return result
 
 def PredictUser(userId):
+    print(userId)
     id = vk.GetUserById(userId)[0]['uid']
 
     groups = vk.textUserGroups( vk.GetUserGroups(id))
