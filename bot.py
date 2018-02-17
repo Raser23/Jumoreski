@@ -26,10 +26,10 @@ def send_anek(message):
 
 
 
-@bot.message_handler(regexp="/predict")
+@bot.message_handler(commands = ['predict'])
 def pred(message):
-
-    txt = message.txt.slit(" ")
+    #print(message)
+    txt = message.text.split(" ")
     if(len(txt) == 1):
         bot.reply_to(message, 'После команды нужно ввести id пользователя ')
     else:
