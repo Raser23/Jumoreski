@@ -3,6 +3,7 @@ from flask import Flask, request
 import config
 import os
 
+import Predict as predicter
 
 bot = telebot.TeleBot(config.TOKEN)
 server = Flask(__name__)
@@ -23,7 +24,20 @@ def start(message):
 def send_anek(message):
     bot.send_message(message.chat.id, Anekdotes.get_random())
 
+@bot.message_handler(commands=['predict'])
+def pred(message):
 
+    txt = message.txt.slit(" ")
+    if(len(txt) == 1):
+        bot.reply_to(message, 'После команды нужно ввести id пользователя ')
+    else:
+        result = predicter.PredictUser(txt[1])
+        resultStr = ""
+        if(result == 0):
+            resultStr = "Говноед"
+        else:
+            resultStr = "Не говноед"
+        bot.reply_to(message, resultStr)
 
 @bot.message_handler(regexp="/generate")
 def generate(message):

@@ -8,7 +8,7 @@ DEBUGID = os.environ.get('DEBUGID')
 OWNERID = os.environ.get('OWNERID')
 WH = os.environ.get('WH')
 DBURL = os.environ.get("DBURL")
-print(DBURL)
+print(VKTOKEN)
 MINLIKES = -1
 VKPOSTING = True
 POSTCD = 60 * 45
