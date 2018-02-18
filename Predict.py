@@ -8,6 +8,7 @@ dataLoaded = False
 import VK as vk
 
 def predict(txt):
+    global dataLoaded
     if(not dataLoaded):
         load()
         dataLoaded = True
