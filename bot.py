@@ -37,10 +37,10 @@ def pred(message):
 
         userId = txt[1]
         if '/' in txt[1]:
-            p = txt[1].split("/")
+            p = txt[1].split('/')
             userId = p[-1]
 
-        result = predicter.PredictUser(txt[1])
+        result = predicter.PredictUser(userId)
         resultStr = ""
         if(result == 0):
             resultStr = "Говноед"
