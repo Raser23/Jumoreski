@@ -33,6 +33,13 @@ def pred(message):
     if(len(txt) == 1):
         bot.reply_to(message, 'После команды нужно ввести id пользователя ')
     else:
+
+
+        userId = txt[1]
+        if '/' in txt[1]:
+            p = txt[1].split("/")
+            userId = p[-1]
+
         result = predicter.PredictUser(txt[1])
         resultStr = ""
         if(result == 0):
