@@ -2,9 +2,6 @@ import vk
 import config
 
 
-
-#dvach
-
 def prettify(str):
     while "  " in str:
         str.replace("  "," ")
@@ -16,18 +13,18 @@ def prettify(str):
 
 
 def func(a):
-    print("hui")
+    print("Debug function")
 
 bot_debugger = func
 
 def UpdateAneks(save_func):
-    import testVkConfig as VKconfig
+    #import testVkConfig as VKconfig
     print("Start updating...")
     session = vk.AuthSession(access_token = config.VKTOKEN)
     vk_api = vk.API(session)
     f = open("downloadedc", 'r')
 
-    downloaded_count = int( f.read())
+    downloaded_count = int(f.read())
     #print("Downloaded: "+str(downloaded_count))
     posts = vk_api.wall.get(domain=config.domain, offset=0)
     current_count = posts[0]
@@ -63,11 +60,10 @@ def UpdateAneks(save_func):
                     sended = True
 
 
-                name = str(current_count - count-1)
+                #name = str(current_count - count-1)
                 text = post['text']
 
                 if(text != ""):
-                    #print("here")
                     save_func(post)
                     added_files+=1
                 count += 1
@@ -118,6 +114,7 @@ def form_progress_bar(count,max_count):
     result_string+="] "
     result_string+=str(percent)+"%"
     return result_string
+
 import threading,time
 
 def Updater():

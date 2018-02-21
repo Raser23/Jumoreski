@@ -73,6 +73,31 @@ def generate(model):
     return generate_random_sentence(-1, model,max_words = (360*2))
 
 
+def Answer(message):
+    index = -1
+    txt = message.text
+
+    txt = txt.split(" ")
+    msg = ""
+    index = txt[0][len("/generate"):]
+
+    if ("@" in index):
+        index = index[:index.find('@')]
+
+    if (index == "hat"):
+        msg = generate_hat_anek()
+    elif (index == "short"):
+        msg = generate_short()
+    elif (index == ""):
+        index = 2
+    else:
+        index = int(index)
+        if (index < 1 or index > 6):
+            index = 2
+        msg = generate_anek(index)
+
+    return msg
+
 def generate_post():
     text = ""
     text += generate_anek(2)

@@ -21,3 +21,22 @@ def PredictUser(userId):
     print(id)
     groups = vk.textUserGroups( vk.GetUserGroups(id))
     return predict(groups)
+
+def Answer(message):
+    txt = message.text.split(" ")
+    if (len(txt) == 1):
+        return 'После команды нужно ввести id пользователя '
+    else:
+
+        userId = txt[1]
+        if '/' in txt[1]:
+            p = txt[1].split('/')
+            userId = p[-1]
+
+        result = PredictUser(userId)
+        resultStr = ""
+        if (result == 0):
+            resultStr = "Говноед"
+        else:
+            resultStr = "Не говноед"
+        return resultStr

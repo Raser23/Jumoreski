@@ -3,8 +3,6 @@ import random
 
 class Dictogram(dict):
     def __init__(self, iterable=None):
-        # Инициализируем наше распределение как новый объект класса,
-        # добавляем имеющиеся элементы
         super(Dictogram, self).__init__()
         self.types = 0  # число уникальных ключей в распределении
         self.tokens = 0  # общее количество всех слов в распределении
@@ -12,8 +10,6 @@ class Dictogram(dict):
             self.update(iterable)
 
     def update(self, iterable):
-        # Обновляем распределение элементами из имеющегося
-        # итерируемого набора данных
         for item in iterable:
             if item in self:
                 self[item] = ((self[item] **0.1)+1)**10
