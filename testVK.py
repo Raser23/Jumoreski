@@ -137,7 +137,8 @@ def post_vk(text):
     vk_api = vk.API(session)
     vk_api.wall.post(owner_id= -152671561,
                       from_group= 1,
-                      message= text
+                      message= text,
+                      version = 5.73
                      )
 
 
