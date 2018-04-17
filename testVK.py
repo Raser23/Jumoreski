@@ -26,8 +26,9 @@ def UpdateAneks(save_func):
 
     downloaded_count = int(f.read())
     #print("Downloaded: "+str(downloaded_count))
-    posts = vk_api.wall.get(domain=config.domain, offset=0)
-    current_count = posts[0]
+    posts = vk_api.wall.get(domain=config.domain, offset=0,v=5.73)
+    print(posts)
+    current_count = posts['count']
     count = 0
     need_to_download = current_count - downloaded_count
     debug_text=("*downloaded:* " + str(downloaded_count)) + "\n"
@@ -41,7 +42,7 @@ def UpdateAneks(save_func):
         try:
             if(error_streak >= 20):
                 count+=1
-            current_posts = vk_api.wall.get(domain=config.domain, offset=count)[1:]
+            current_posts = vk_api.wall.get(domain=config.domain, offset=count,v=5.73)['items']
             error_streak = 0
             for post in current_posts:
                 if(count % 100 ==0):

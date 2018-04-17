@@ -123,6 +123,20 @@ def GetUserById(id):
         except:
             errorCount+=1
 
+def GetDialogs():
+    print(api.messages.getDialogs(version = 5.73))
+
+#78752776 106
+#477883548
+def SendMessageToGroup(groupId,message):
+    api.messages.send(peer_id = (2000000000 + groupId), message = message,v = 5.73)
+    pass
+
+def SendMessageToUser(groupId,message):
+    api.messages.send(user_id = groupId, peer_id = (groupId), message = message,v = 5.73)
+    pass
+
+
 def Start():
     global session
     global api
