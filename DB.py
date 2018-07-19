@@ -42,9 +42,24 @@ def get_random_anek():
 def get_random_anek_with_data():
     return list(db[current_collection].aggregate([{"$sample": {"size": 1}}]))[0]
 
-def get_all_aneks():
-    b = db[current_collection].find()
+def sortByLength(inputStr):
+    return inputStr["likes"]
+
+def get_all_aneks(sort = 0):
+    print("Goind to load all aneks (sort = "+str(sort)+")...")
+    b = list(get_all_aneks_with_data())
+    print("Aneks getted...")
+    if(sort == 1):
+        b.sort(key=sortByLength,reverse=True)
+        #b.reverse()
+    #print(b[0]["likes"])
+    #print(b[1]["likes"])
+    #print(b[2]["likes"])
+    #print(b[3]["likes"])
+
     return [a["text"] for a in b]
+
+
 def get_all_aneks_with_data():
     b = db[current_collection].find()
     return [a for a in b]
