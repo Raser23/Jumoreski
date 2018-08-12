@@ -15,18 +15,24 @@ def prettify(str):
 def func(a):
     print("Debug function")
 
+def LikeChecker(likesCount, text):
+    return likesCount >= config.MINLIKES
+
+
 bot_debugger = func
 
-def UpdateAneks(save_func):
+def UpdateAneks(save_func ,domain = config.domain,check_func = LikeChecker , load_all = False):
     #import testVkConfig as VKconfig
     print("Start updating...")
     session = vk.AuthSession(access_token = config.VKTOKEN)
     vk_api = vk.API(session)
     f = open("downloadedc", 'r')
 
-    downloaded_count = int(f.read())
+    downloaded_count = 0 if load_all else int(f.read())
+
     #print("Downloaded: "+str(downloaded_count))
-    posts = vk_api.wall.get(domain=config.domain, offset=0,v=5.73)
+    posts = vk_api.wall.get(domain=domain, offset=0,v=5.73)
+
     print(posts)
     current_count = posts['count']
     count = 0
@@ -42,27 +48,29 @@ def UpdateAneks(save_func):
         try:
             if(error_streak >= 20):
                 count+=1
-            current_posts = vk_api.wall.get(domain=config.domain, offset=count,v=5.73)['items']
+            current_posts = vk_api.wall.get(domain=domain, offset=count,v=5.73)['items']
             error_streak = 0
             for post in current_posts:
                 if(count % 100 ==0):
                     sended = False
 
                 likesCount = post["likes"]["count"]
+                text = post['text']
 
-                if(likesCount < config.MINLIKES):
+                # Переход к следующему анекдоту
+                if not check_func(likesCount,text):
                     count+=1
                     continue
 
+                # Видимо мы скачали все что хотели
                 if (count >= need_to_download):
                     break
+                # Штука для дебага
                 if (not sended):
                     print("counter: " + str(count))
                     sended = True
 
 
-                #name = str(current_count - count-1)
-                text = post['text']
 
                 if(text != ""):
                     save_func(post)
