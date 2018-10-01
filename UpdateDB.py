@@ -4,7 +4,6 @@ import DB
 
 
 
-
 def UpdateH():
     DB.set_collection("anekdotes")
     testVK.UpdateAneks(DB.add_anek)
