@@ -11,7 +11,7 @@ def find_all(a_str, sub):
 
 
 def pret(text):
-    re1 = re.compile("[^0-9,а-я,А-Я,A-Z,a-z, ,.,!,-,—,ё,Ё,-,?,-,\n]")
+    re1 = re.compile("[^0-9,а-я,А-Я,A-Z,a-z, ,.,!,-,—,ё,Ё,-,?,-,\"]")
     text = re.sub(re1, " ", text)
 
     while "  " in text:

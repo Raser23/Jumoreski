@@ -14,3 +14,5 @@ def LChecker(likesCount,text):
 def UpdateL():
     DB.set_collection("Lentyach")
     testVK.UpdateAneks(DB.add_anek, domain= "lentyay_tv" , check_func = LChecker, load_all = True)
+UpdateH()
+UpdateL()
