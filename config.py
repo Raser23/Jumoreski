@@ -12,6 +12,7 @@ print(VKTOKEN)
 MINLIKES = -1
 VKPOSTING = True
 POSTCD = 60 * 45
+DBCLIENT = "heroku_nvrtrh57"
 
 UPDATETIME = 60 * 10
 HOST = 'https://jumoreski.herokuapp.com'

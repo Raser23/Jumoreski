@@ -59,7 +59,7 @@ def GetMostPopularGroups(userIds ,isGood, maxCount = 5000):
     groups = {}
 
     getted = 0
-    print((userIds))
+    print(userIds)
     for id in userIds:
         print(id)
         while True:
@@ -81,7 +81,6 @@ def GetMostPopularGroups(userIds ,isGood, maxCount = 5000):
                 pass
         getted +=1
 
-        #print("get: " + str(getted))
     return [a for a in groups]
 
 def SaveUser(isGood, userId ,fileName):
@@ -126,14 +125,12 @@ def GetUserById(id):
 def GetDialogs():
     print(api.messages.getDialogs(version = 5.73))
 
-#78752776 106
-#477883548
-def SendMessageToGroup(groupId,message):
-    api.messages.send(peer_id = (2000000000 + groupId), message = message,v = 5.73)
+def SendMessageToGroup(groupID, message):
+    api.messages.send(peer_id = (2000000000 + groupID), message = message,v = 5.73)
     pass
 
-def SendMessageToUser(groupId,message):
-    api.messages.send(user_id = groupId, peer_id = (groupId), message = message,v = 5.73)
+def SendMessageToUser(userID ,message):
+    api.messages.send(user_id = userID, peer_id = (userID), message = message,v = 5.73)
     pass
 
 
@@ -141,12 +138,8 @@ def Start():
     global session
     global api
     session = vk.AuthSession(access_token = CFG.VKTOKEN)
-    #print(CFG.VKTOKEN)
     api = vk.API(session)
 
 
 
 Start()
-
-#print(GetUserById("alekseifilin"))
-#print(GetUserGroups(0))

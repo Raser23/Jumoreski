@@ -4,7 +4,7 @@ from os import listdir
 from os.path import isfile, join
 from bs4 import BeautifulSoup
 from random import choice
-import hashlib
+from Things.StringHash import hash_string
 
 
 current_collection = "anekdotes"
@@ -25,8 +25,6 @@ def prettify(str):
         str = str.replace("<br>","\n")
     return  str
 
-def hash_string(text):
-    return hashlib.md5(str(text).encode('utf-8')).hexdigest()
 
 def form_anek(post):
     if("likes" not in post):
@@ -51,12 +49,6 @@ def get_all_aneks(sort = 0):
     print("Aneks getted...")
     if(sort == 1):
         b.sort(key=sortByLength,reverse=True)
-        #b.reverse()
-    #print(b[0]["likes"])
-    #print(b[1]["likes"])
-    #print(b[2]["likes"])
-    #print(b[3]["likes"])
-
     return [a["text"] for a in b]
 
 

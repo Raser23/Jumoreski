@@ -27,51 +27,10 @@ def send_anek(message):
 @bot.message_handler(commands = ['predict'])
 def pred(message):
     bot.reply_to(message,predicter.Answer(message));
-    '''txt = message.text.split(" ")
-    if(len(txt) == 1):
-        bot.reply_to(message, 'После команды нужно ввести id пользователя ')
-    else:
-
-
-        userId = txt[1]
-        if '/' in txt[1]:
-            p = txt[1].split('/')
-            userId = p[-1]
-
-        result = predicter.PredictUser(userId)
-        resultStr = ""
-        if(result == 0):
-            resultStr = "Говноед"
-        else:
-            resultStr = "Не говноед"
-        bot.reply_to(message, resultStr)'''
 
 @bot.message_handler(regexp="/generate")
 def generate(message):
     bot.send_message(message.chat.id, Anekdotes.Answer(message))
-    '''index = -1
-    txt = message.text
-
-    txt = txt.split(" ")
-    msg =""
-    index = txt[0][len("/generate"):]
-
-    if("@" in index):
-        index = index[:index.find('@')]
-
-    if(index == "hat"):
-        msg = Anekdotes.generate_hat_anek()
-    elif(index == "short"):
-        msg = Anekdotes.generate_short()
-    elif(index == ""):
-        index = 2
-    else:
-        index = int(index)
-        if(index <1 or index>6):
-            index = 2
-        msg = Anekdotes.generate_anek(index)
-
-    bot.send_message(message.chat.id,msg )'''
 
 
 @bot.message_handler(commands=['send_message'])
@@ -109,7 +68,6 @@ def get_message():
     updates = [telebot.types.Update.de_json(s)]
     #TODO: ебаный в рот
     for update in updates:
-        #print(update.message)
         Debugger.debug(update.message)
 
     bot.process_new_updates(updates)
@@ -123,7 +81,6 @@ def webhook():
 
 @server.route("/wakeup")
 def wakeup():
-    #print("pinged")
     return "Never sleeps", 200
 
 import testVK

@@ -141,15 +141,6 @@ def start(debug):
     #set_updater()
 
 
-def post_vk(text):
-    session = vk.AuthSession(access_token=config.VKTOKEN)
-    vk_api = vk.API(session)
-    vk_api.wall.post(v = 5.73,owner_id= -152671561,
-                      from_group= 1,
-                      message= text,
-                      signed = 1
-                     )
-
 
 
 #post_vk()

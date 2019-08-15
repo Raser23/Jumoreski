@@ -1,7 +1,7 @@
 import DataCreator.TextPrettifier as tp
 import DB
 import re
-js = DB.get_random_aneks(50)
+js = DB.get_all_aneks(sort=0)
 f = open('j.txt', 'w')
 for raw_string in js:
     #print(raw_string)

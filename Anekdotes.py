@@ -4,7 +4,7 @@ from os.path import isfile, join
 from bs4 import BeautifulSoup
 from random import choice
 from markov.markov_model import make_markov_model
-
+from tqdm import tqdm
 def prettify(str):
     while "<br>" in str:
         str = str.replace("<br>","\n")
@@ -60,8 +60,9 @@ mdl = make_markov_model(DB.get_model("all_1")+DB.get_model("all_2") + DB.get_mod
 
 from markov.sentence_generator import generate_random_sentence
 
-def generate_anek(model_index):
-    return generate_random_sentence(-1, mdl,max_words = (35),rand=-1)
+def generate_anek():
+
+    return generate_random_sentence( mdl,fixedLength = -1, max_words = (35),rand=-1)
 
 def generate_hat_anek():
     return "Данная опция пока не доступна ... "#generate_random_sentence(-1, hat_model,max_words = 100)
@@ -100,6 +101,11 @@ def Answer(message):
 
 def generate_post():
     text = ""
-    text += generate_anek(2)
+    text += generate_anek()
     return text
 
+def generate_posts(count = 100):
+    from aGeneratedDB import Add
+
+    for i in tqdm(range(count)):
+        Add(generate_anek())
