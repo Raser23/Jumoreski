@@ -12,6 +12,7 @@ MINLIKES = -1
 VKPOSTING = True
 POSTCD = 60 * 45
 DBCLIENT = os.environ.get('DBCLIENT')
+print(DBCLIENT)
 GROUPID = os.environ.get('GROUPID')
 VKOWNERID = os.environ.get('VKOWNERID')
 VKAPIVERSION = os.environ.get('VKAPIVERSION')
