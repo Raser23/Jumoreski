@@ -1,10 +1,10 @@
-from pymongo import MongoClient
 import config
 from os import listdir
 from os.path import isfile, join
-from bs4 import BeautifulSoup
-from random import choice
+
 from Things.StringHash import hash_string
+from Things.DBClient import getClient
+
 
 
 current_collection = "anekdotes"
@@ -16,8 +16,7 @@ def reset_collection():
     global current_collection
     current_collection = "anekdotes"
 
-client = MongoClient(config.DBURL)
-db = client["heroku_nvrtrh57"]
+db = getClient()
 print("Connected to Database")
 
 def prettify(str):

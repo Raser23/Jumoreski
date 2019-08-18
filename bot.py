@@ -90,6 +90,7 @@ testVK.start(Debugger.send_debug)
 import Anekdotes
 if(config.VKPOSTING):
     import VKposting
+import VKBOT.StatsUpdater
 import NotSleeping
 if(int(config.WH) == 1):
     print("Webhook setted")

@@ -20,16 +20,19 @@ def GetUserGroups(userId):
             pass
 
 def GetGroupUserIds(groupId , count = -1):
-    loadCount = 100
+    loadCount = 10
     first={}
-    while True:
+    #while True:
+        #print('as')
+        #try:
+    for i in range(20):
         try:
-            first = api.groups.getMembers(group_id = groupId,offset = 0, count = loadCount)
+            first = api.groups.getMembers(group_id = groupId,offset = 0, count = loadCount,v = CFG.VKAPIVERSION)
             break
         except:
             pass
 
-    userIds = first['users']
+    userIds = first['items']
 
     maxCount = first['count']
     if(count >= 0):
@@ -38,10 +41,10 @@ def GetGroupUserIds(groupId , count = -1):
     loadedUsers = 0
 
     while loadedUsers < maxCount:
-        print(str(loadedUsers)+" / "+str(maxCount))
+        print(loadedUsers)
         try:
             loadedUsers = len(userIds)
-            userIds = userIds + api.groups.getMembers(group_id = groupId,offset = loadedUsers, count = loadCount)['users']
+            userIds = userIds + api.groups.getMembers(group_id = groupId,offset = loadedUsers, count = loadCount,v = CFG.VKAPIVERSION)['items']
         except:
             pass
 
@@ -139,7 +142,6 @@ def Start():
     global api
     session = vk.AuthSession(access_token = CFG.VKTOKEN)
     api = vk.API(session)
-
 
 
 Start()

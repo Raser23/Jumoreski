@@ -1,14 +1,9 @@
-from pymongo import MongoClient
-import config as CFG
-from os import listdir
 from Things.StringHash import hash_string
-
+from Things.DBClient import getClient
 
 current_collection = "Generated"
 
-client = MongoClient(CFG.DBURL)
-
-db = client[CFG.DBCLIENT]
+db = getClient()
 
 def Add(text):
     resultObj = {"text" : text,
