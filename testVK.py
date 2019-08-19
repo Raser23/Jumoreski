@@ -24,7 +24,7 @@ bot_debugger = func
 def UpdateAneks(save_func ,domain = config.domain,check_func = LikeChecker , load_all = False):
     #import testVkConfig as VKconfig
     print("Start updating...")
-    session = vk.AuthSession(access_token = config.VKTOKEN)
+    session = vk.AuthSession(access_token = config.VKAPIUSER)
     vk_api = vk.API(session)
     f = open("downloadedc", 'r')
 

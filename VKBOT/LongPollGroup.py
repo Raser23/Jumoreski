@@ -4,7 +4,7 @@ import requests
 import threading
 import time
 
-session = vk.AuthSession(access_token=CFG.VKTOKEN)
+session = vk.AuthSession(access_token=CFG.VKAPIGROUP)
 api = vk.API(session)
 data = api.groups.getLongPollServer(group_id=CFG.GROUPID, v=CFG.VKAPIVERSION)
 
@@ -52,4 +52,3 @@ def long_poll():
                 update_processing(element)
         data['ts'] = response['ts']  # обновление номера последнего обновления
         time.sleep(3)
-start_long_poll()

@@ -146,7 +146,7 @@ def SendMessageToUser(userID, message):
 def Start():
     global session
     global api
-    session = vk.AuthSession(access_token=CFG.VKTOKEN)
+    session = vk.AuthSession(access_token=CFG.VKAPIUSER)
     api = vk.API(session)
 
 

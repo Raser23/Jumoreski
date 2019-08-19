@@ -3,7 +3,10 @@ import os
 domain = "jumoreski"
 path = "aneks/"
 TOKEN = os.environ.get('TOKEN')
-VKTOKEN = os.environ.get('VKAPI')
+
+VKAPIGROUP = os.environ.get('VKAPIGROUP')
+VKAPIUSER = os.environ.get('VKAPIUSER')
+
 DEBUGID = os.environ.get('DEBUGID')
 OWNERID = os.environ.get('OWNERID')
 WH = os.environ.get('WH')

@@ -7,6 +7,7 @@ def writer():
     while True:
         from VKBOT.Stats import add_report
         add_report()
+        print("Report created")
         time.sleep(config.REPORTTIME)
 
     pass
