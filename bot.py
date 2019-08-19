@@ -92,7 +92,10 @@ if(config.VKPOSTING):
     import VKposting
 import VKBOT.StatsUpdater
 import NotSleeping
-if(int(config.WH) == 1):
+from VKBOT.LongPollGroup import start_long_poll
+start_long_poll()
+
+if int(config.WH) == 1:
     print("Webhook setted")
     webhook()
     server.run(host="0.0.0.0", port=os.environ.get('PORT', 5000))
@@ -100,6 +103,6 @@ if(int(config.WH) == 1):
 else:
     print("Polling")
     bot.remove_webhook()
-    bot.polling(none_stop = True)
+    bot.polling(none_stop=True)
 
 

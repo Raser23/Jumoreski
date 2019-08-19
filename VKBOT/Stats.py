@@ -1,4 +1,4 @@
-from config import GROUPID,OWNERID
+from config import GROUPID, OWNERID
 from VK import GetGroupUserIds
 from Things.DBClient import getClient
 import time
@@ -36,8 +36,8 @@ def get_report(num):
     return obj
 
 
-def compare_reports(reportA,reportB):
-    AwB = list(set(reportA["users"]) - set(reportB["users"]) )
+def compare_reports(reportA, reportB):
+    AwB = list(set(reportA["users"]) - set(reportB["users"]))
     BwA = list(set(reportB["users"]) - set(reportA["users"]))
     print(AwB)
     print(BwA)

@@ -5,16 +5,18 @@ current_collection = "Generated"
 
 db = getClient()
 
-def Add(text):
-    resultObj = {"text" : text,
-                 "hash" :hash_string(text)}
-    db[current_collection].insert_one(resultObj)
 
-def Count():
+def add(text):
+    result_obj = {"text": text,
+                  "hash": hash_string(text)}
+    db[current_collection].insert_one(result_obj)
+
+
+def count():
     return db[current_collection].count()
 
-def Get():
+
+def get():
     obj = db[current_collection].find_one()
     db[current_collection].delete_many(obj)
     return obj
-

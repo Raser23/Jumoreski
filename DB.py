@@ -24,7 +24,6 @@ def prettify(str):
         str = str.replace("<br>","\n")
     return  str
 
-
 def form_anek(post):
     if("likes" not in post):
         return {"text": post, "hash": hash_string(post), "likes": 0}
@@ -75,7 +74,6 @@ def add_model(model_name,data):
 def get_model(name):
     return db.models.find_one({"name":name})["data"]
 
-
 def load_aneks_to_db(path):
     onlyfiles = [f for f in listdir(path) if isfile(join(path, f))]
     for file in onlyfiles:
@@ -86,3 +84,6 @@ def load_aneks_to_db(path):
         except Exception as e:
             print(e)
             pass
+
+def is_unique(hash):
+    return db["anekdotes"].find_one({"hash" : hash}) is None

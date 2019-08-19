@@ -104,8 +104,13 @@ def generate_post():
     text += generate_anek()
     return text
 
-def generate_posts(count = 100):
-    from aGeneratedDB import Add
-
+def generate_posts(count = 100, unique_check = True):
+    from aGeneratedDB import add
+    from DB import is_unique
+    from Things.StringHash import hash_string
     for i in tqdm(range(count)):
-        Add(generate_anek())
+        while True:
+            tmp = generate_anek()
+            if (not unique_check) or is_unique(hash_string(tmp)):
+                add(tmp)
+                break

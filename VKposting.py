@@ -10,7 +10,7 @@ def writer():
     while(True):
 
         if(config.VKPOSTING):
-            post(aGeneratedDB.Get()["text"])
+            post(aGeneratedDB.get()["text"])
             print("posted")
         time.sleep(config.POSTCD)
 
