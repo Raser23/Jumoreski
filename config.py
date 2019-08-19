@@ -24,5 +24,3 @@ REPORTTIME = 60 * 60 * 12
 
 UPDATETIME = 60 * 10
 HOST = 'https://jumoreski.herokuapp.com'
-
-print(VKTOKEN)
