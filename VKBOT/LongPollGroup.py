@@ -50,6 +50,3 @@ def long_poll():
             for element in updates:  # проход по всем обновлениям в ответе
                 update_processing(element)
         data['ts'] = response['ts']  # обновление номера последнего обновления
-
-
-start_long_poll()
