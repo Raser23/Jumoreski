@@ -91,9 +91,12 @@ import Anekdotes
 if(config.VKPOSTING):
     import VKposting
 import VKBOT.StatsUpdater
+print("Stats Updater +")
 import NotSleeping
+print("Preventing Sleep +")
 from VKBOT.LongPollGroup import start_long_poll
 start_long_poll()
+print("Long Polling +")
 
 if int(config.WH) == 1:
     print("Webhook setted")

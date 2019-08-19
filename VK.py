@@ -38,7 +38,7 @@ def GetGroupUserIds(groupId, count=-1):
     loadedUsers = 0
 
     while loadedUsers < maxCount:
-        print(loadedUsers)
+        #print(loadedUsers)
         try:
             loadedUsers = len(userIds)
             userIds = userIds + \

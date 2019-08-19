@@ -2,6 +2,7 @@ import vk
 import config as CFG
 import requests
 import threading
+import time
 
 session = vk.AuthSession(access_token=CFG.VKTOKEN)
 api = vk.API(session)
@@ -50,3 +51,5 @@ def long_poll():
             for element in updates:  # проход по всем обновлениям в ответе
                 update_processing(element)
         data['ts'] = response['ts']  # обновление номера последнего обновления
+        time.sleep(3)
+start_long_poll()
