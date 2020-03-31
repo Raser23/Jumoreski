@@ -58,7 +58,7 @@ tensorflow-tensorboard==0.1.5
 tflearn==0.3.2
 Theano==0.9.0
 traitlets==4.3.2
-urllib3==1.21.1
+urllib3==1.24.2
 vk==2.0.2
 wcwidth==0.1.7
 Werkzeug==0.12.2
