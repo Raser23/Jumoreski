@@ -47,7 +47,7 @@ pyparsing==2.2.0
 pyTelegramBotAPI==3.1.0
 python-dateutil==2.6.0
 pytz==2017.2
-PyYAML==3.12
+PyYAML==5.1
 requests==2.18.1
 scikit-learn==0.18.1
 scipy==0.19.0
