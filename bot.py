@@ -9,7 +9,7 @@ bot = telebot.TeleBot(config.TOKEN)
 server = Flask(__name__)
 
 import testVK as vk
-
+import aGeneratedDB as aneks
 import Bot.Debug as Debugger
 
 Debugger.Start(bot.send_message)
@@ -20,7 +20,7 @@ def start(message):
 
 @bot.message_handler(commands=['anekdot'])
 def send_anek(message):
-    bot.send_message(message.chat.id, Anekdotes.get_random())
+    bot.send_message(message.chat.id, aneks.get()["text"])
 
 
 
@@ -30,7 +30,7 @@ def pred(message):
 
 @bot.message_handler(regexp="/generate")
 def generate(message):
-    bot.send_message(message.chat.id, Anekdotes.Answer(message))
+    bot.send_message(message.chat.id, aneks.get()["text"])
 
 
 @bot.message_handler(commands=['send_message'])
@@ -57,7 +57,7 @@ def send_anek(message):
 
 @bot.message_handler(content_types=["text"])
 def default_answer(message):
-    bot.send_message(message.chat.id, Anekdotes.get_random())
+    bot.send_message(message.chat.id, aneks.get()["text"])
 
 
 #server handlers
@@ -87,13 +87,15 @@ import testVK
 
 testVK.start(Debugger.send_debug)
 
-import Anekdotes
+#import Anekdotes
+
 if(config.VKPOSTING):
     import VKposting
 import VKBOT.StatsUpdater
 print("Stats Updater +")
 import NotSleeping
 print("Preventing Sleep +")
+
 from VKBOT.LongPollGroup import start_long_poll
 start_long_poll()
 print("Long Polling +")

@@ -19,8 +19,26 @@ GROUPID = os.environ.get('GROUPID')
 VKOWNERID = os.environ.get('VKOWNERID')
 VKAPIVERSION = os.environ.get('VKAPIVERSION')
 
-REPORTTIME = 60 * 60 * 12
+REPORTTIME = 60 * 60 * 24
 
 
 UPDATETIME = 60 * 10
 HOST = 'https://jumoreski.herokuapp.com'
+
+#Collection names
+collections = {}
+collections["hum"] = "anekdotes"
+collections["lent"] = "Lentyach"
+collections["kal"] = "Kalik"
+
+#Domain names
+domains = {}
+domains["hum"] = "jumoreski"
+domains["lent"] = "lentyay_tv"
+domains["kal"] = "kalikfan"
+
+#Model names
+models = {}
+models["hum"] = "hum_model"
+models["lent"] = "lent_model"
+models["kal"] = "kal_model"
