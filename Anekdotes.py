@@ -55,14 +55,13 @@ import DB
 def get_random():
     return DB.get_random_anek()
 
-#loading data
-mdl = make_markov_model(DB.get_model("all_1")+DB.get_model("all_2") + DB.get_model("all_3"))
+mdl = []#make_markov_model(DB.get_model("all_1")+DB.get_model("all_2") + DB.get_model("all_3"))
 
 from markov.sentence_generator import generate_random_sentence
 
-def generate_anek():
+def generate_anek(model = mdl):
 
-    return generate_random_sentence( mdl,fixedLength = -1, max_words = (35),rand=-1)
+    return generate_random_sentence(model,fixedLength = -1, max_words = (35),rand=-1)
 
 def generate_hat_anek():
     return "Данная опция пока не доступна ... "#generate_random_sentence(-1, hat_model,max_words = 100)
@@ -72,7 +71,6 @@ def generate_short():
 
 def generate(model):
     return generate_random_sentence(-1, model,max_words = (360*2))
-
 
 def Answer(message):
     index = -1
@@ -99,18 +97,18 @@ def Answer(message):
 
     return msg
 
-def generate_post():
+def generate_post(model = mdl):
     text = ""
-    text += generate_anek()
+    text += generate_anek(model)
     return text
 
-def generate_posts(count = 100, unique_check = True):
+def generate_posts(model = mdl,count = 100, unique_check = True):
     from aGeneratedDB import add
     from DB import is_unique
     from Things.StringHash import hash_string
     for i in tqdm(range(count)):
         while True:
-            tmp = generate_anek()
+            tmp = generate_anek(model)
             if (not unique_check) or is_unique(hash_string(tmp)):
                 add(tmp)
                 break

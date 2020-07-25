@@ -1,18 +1,33 @@
 import testVK
-
+import config as CFG
+print(CFG.DBURL)
 import DB
 
 
+import Things.UpdateDBStuff as uds
 
-def UpdateH():
-    DB.set_collection("anekdotes")
-    testVK.UpdateAneks(DB.add_anek)
+def LoadHumserques():
+    DB.set_collection(CFG.collections["hum"])
+    testVK.UpdateAneks(DB.add_anek,
+                       domain= CFG.domains["hum"],
+                       check_func=uds.EmptyChecker(),
+                       load_all = True)
 
-def LChecker(likesCount,text):
-    return "#мудрость" in text
 
-def UpdateL():
-    DB.set_collection("Lentyach")
-    testVK.UpdateAneks(DB.add_anek, domain= "lentyay_tv" , check_func = LChecker, load_all = True)
-UpdateH()
-UpdateL()
+def LoadLentyay():
+    DB.set_collection(CFG.collections["lent"])
+    testVK.UpdateAneks(DB.add_anek,
+                       domain= CFG.domains["lent"] ,
+                       check_func = uds.WordChecker(["#мудрость"]),
+                       load_all = True)
+
+def LoadKalik():
+    DB.set_collection(CFG.collections["kal"])
+    testVK.UpdateAneks(DB.add_anek,
+                       domain= CFG.domains["kal"] ,
+                       check_func = uds.EmptyChecker(),
+                       load_all = True)
+
+LoadHumserques()
+LoadLentyay()
+LoadKalik()
