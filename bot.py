@@ -96,8 +96,8 @@ print("Stats Updater +")
 import NotSleeping
 print("Preventing Sleep +")
 
-from VKBOT.LongPollGroup import start_long_poll
-start_long_poll()
+#from VKBOT.LongPollGroup import start_long_poll
+#start_long_poll()
 print("Long Polling +")
 
 if int(config.WH) == 1:
