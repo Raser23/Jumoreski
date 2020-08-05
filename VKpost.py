@@ -4,7 +4,7 @@ from random import choice
 
 def post(text):
 
-    tok = choice(CFG.VKB,CFG.VKF)
+    tok = choice([CFG.VKB,CFG.VKF])
     session = vk.AuthSession(access_token=tok)
     vk_api = vk.API(session)
 
