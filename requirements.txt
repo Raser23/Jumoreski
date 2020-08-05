@@ -26,7 +26,6 @@ jedi==0.10.2
 Jinja2==2.9.6
 Keras==2.0.5
 Markdown==2.6.8
-MarkupSafe==1.0
 matplotlib==2.0.2
 mglearn==0.1.6
 numpy==1.13.1
