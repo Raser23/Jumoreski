@@ -7,6 +7,9 @@ TOKEN = os.environ.get('TOKEN')
 VKAPIGROUP = os.environ.get('VKAPIGROUP')
 VKAPIUSER = os.environ.get('VKAPIUSER')
 
+VKB = os.environ.get('VKB')
+VKF = os.environ.get('VKF')
+
 DEBUGID = os.environ.get('DEBUGID')
 OWNERID = os.environ.get('OWNERID')
 WH = os.environ.get('WH')
