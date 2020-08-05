@@ -10,7 +10,6 @@ def writer():
         add_report()
         print("Report created")
         time.sleep(config.REPORTTIME)
-
     pass
 
 
