@@ -23,7 +23,7 @@ ipython==6.1.0
 ipython-genutils==0.2.0
 itsdangerous==0.24
 jedi==0.10.2
-Jinja2==2.9.6
+Jinja2==2.11.3
 Keras==2.0.5
 Markdown==2.6.8
 matplotlib==2.0.2
