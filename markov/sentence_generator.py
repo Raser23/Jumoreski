@@ -1,7 +1,7 @@
 
 import random
-from collections import deque
-import re
+#from collections import deque
+#import re
 
 
 def generate_random_start(model,rand = -1):

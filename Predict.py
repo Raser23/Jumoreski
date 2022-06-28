@@ -1,8 +1,8 @@
-from sklearn.externals import joblib
+#from sklearn.externals import joblib
 
 def load():
     global clf
-    clf = joblib.load('Tengen_Toppa_mega_faggot.pkl')
+    #clf = joblib.load('Tengen_Toppa_mega_faggot.pkl')
 dataLoaded = False
 
 import VK as vk
@@ -24,9 +24,9 @@ def PredictUser(userId):
 
 def Answer(message):
     txt = message.text.split(" ")
-    if (len(txt) == 1):
-        return 'После команды нужно ввести id пользователя '
-    else:
+    #if (len(txt) == 1):
+    return 'Пока не работает'
+    '''else:
 
         userId = txt[1]
         if '/' in txt[1]:
@@ -39,4 +39,4 @@ def Answer(message):
             resultStr = "Говноед"
         else:
             resultStr = "Не говноед"
-        return resultStr
+        return resultStr'''
