@@ -45,3 +45,6 @@ models = {}
 models["hum"] = "hum_model"
 models["lent"] = "lent_model"
 models["kal"] = "kal_model"
+
+#Ban words
+banWords = ["суиц", "выпил", "вскройс"]
