@@ -18,7 +18,7 @@ def postDonut(text):
     session = vk.AuthSession(access_token=tok)
     vk_api = vk.API(session)
 
-    vk_api.wall.post(v=CFG.VKAPIVERSION, owner_id=-CFG.GROUPID,
+    vk_api.wall.post(v=CFG.VKAPIVERSION, owner_id="-"+CFG.GROUPID,
                      from_group = 1,
                      message = text,
                      signed = 1,
