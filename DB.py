@@ -18,7 +18,7 @@ def reset_collection():
 
 db = getClient()
 print("Connected to Database")
-print(db.collection_names())
+#print(db.collection_names())
 def prettify(str):
     while "<br>" in str:
         str = str.replace("<br>","\n")

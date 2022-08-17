@@ -1,7 +1,7 @@
 import config
 from os import listdir
 from os.path import isfile, join
-from bs4 import BeautifulSoup
+#from bs4 import BeautifulSoup
 from random import choice
 from markov.markov_model import make_markov_model
 from tqdm import tqdm
@@ -55,7 +55,7 @@ import DB
 def get_random():
     return DB.get_random_anek()
 
-mdl = []#make_markov_model(DB.get_model("all_1")+DB.get_model("all_2") + DB.get_model("all_3"))
+mdl = [];#make_markov_model(DB.get_model("all_1")+DB.get_model("all_2") + DB.get_model("all_3"))
 
 from markov.sentence_generator import generate_random_sentence
 
@@ -111,4 +111,15 @@ def generate_posts(model = mdl,count = 100, unique_check = True):
             tmp = generate_anek(model)
             if (not unique_check) or is_unique(hash_string(tmp)):
                 add(tmp)
+                break
+
+def generate_posts_donut(model = mdl,count = 100, unique_check = True):
+    from aGeneratedDB import add_donut
+    from DB import is_unique
+    from Things.StringHash import hash_string
+    for i in tqdm(range(count)):
+        while True:
+            tmp = generate_anek(model)
+            if (not unique_check) or is_unique(hash_string(tmp)):
+                add_donut(tmp)
                 break

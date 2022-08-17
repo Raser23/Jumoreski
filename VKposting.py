@@ -4,7 +4,7 @@ import config
 import aGeneratedDB
 
 
-from VKpost import post
+from VKpost import post, postDonut
 
 def writer():
     while(True):
@@ -12,6 +12,8 @@ def writer():
         if(config.VKPOSTING):
             post(aGeneratedDB.get()["text"])
             print("posted")
+            postDonut(aGeneratedDB.getDonut()["text"])
+            print("posted donut")
         time.sleep(config.POSTCD)
 
     pass

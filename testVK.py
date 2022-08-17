@@ -34,7 +34,7 @@ def UpdateAneks(save_func ,domain = config.domain,check_func = LikeChecker , loa
     downloaded_count = 0 if load_all else int(f.read())
 
     #print("Downloaded: "+str(downloaded_count))
-    posts = vk_api.wall.get(domain=domain, offset=0,v=5.73)
+    posts = vk_api.wall.get(domain=domain, offset=0, v = "5.100")
 
     print(posts)
     current_count = posts['count']
@@ -51,7 +51,7 @@ def UpdateAneks(save_func ,domain = config.domain,check_func = LikeChecker , loa
         try:
             if(error_streak >= 20):
                 count+=1
-            current_posts = vk_api.wall.get(domain=domain, offset=count,v=5.73)['items']
+            current_posts = vk_api.wall.get(domain=domain, offset=count, v = "5.100")['items']
             error_streak = 0
             for post in current_posts:
                 if(count % 100 ==0):

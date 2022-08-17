@@ -13,10 +13,14 @@ path = "aneks/"
 TOKEN = os.environ.get('TOKEN')
 
 VKAPIGROUP = os.environ.get('VKAPIGROUP')
-VKAPIUSER = os.environ.get('VKAPIUSER')
+VKAPIUSER = os.environ.get('VKB')
+print("VKAPIUSER = ", VKAPIUSER)
 
 VKB = os.environ.get('VKB')
 VKF = os.environ.get('VKF')
+print("VKB = ", VKB)
+print("VKF = ", VKF)
+
 
 DEBUGID = os.environ.get('DEBUGID')
 OWNERID = os.environ.get('OWNERID')
@@ -24,7 +28,7 @@ WH = os.environ.get('WH')
 DBURL = os.environ.get("DBURL")
 MINLIKES = -1
 VKPOSTING = True
-POSTCD = 60 * 45
+POSTCD = 60 * 60
 DBCLIENT = os.environ.get('DBCLIENT')
 GROUPID = os.environ.get('GROUPID')
 VKOWNERID = os.environ.get('VKOWNERID')
