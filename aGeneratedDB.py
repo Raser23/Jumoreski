@@ -30,5 +30,5 @@ def get():
 
 def getDonut():
     obj = db["GeneratedDon"].find_one()
-    db[current_collection].delete_many(obj)
+    db["GeneratedDon"].delete_many(obj)
     return obj
