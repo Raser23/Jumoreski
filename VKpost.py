@@ -1,5 +1,6 @@
 import config as CFG
 import vk
+import telebot
 
 def post(text):
 
@@ -12,6 +13,9 @@ def post(text):
                       message= text,
                       signed = 1
                      )
+
+    bot = telebot.TeleBot(CFG.TOKEN)
+    bot.send_message("@neuraljumoresques", text)
 
 def postDonut(text):
     tok = CFG.VKF
