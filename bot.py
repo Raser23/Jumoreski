@@ -89,8 +89,6 @@ testVK.start(Debugger.send_debug)
 
 #import Anekdotes
 
-if(config.VKPOSTING):
-    import VKposting
 import VKBOT.StatsUpdater
 print("Stats Updater +")
 import NotSleeping

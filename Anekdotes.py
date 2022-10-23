@@ -55,7 +55,7 @@ import DB
 def get_random():
     return DB.get_random_anek()
 
-mdl = [];#make_markov_model(DB.get_model("all_1")+DB.get_model("all_2") + DB.get_model("all_3"))
+mdl = []#make_markov_model(DB.get_model("all_1")+DB.get_model("all_2") + DB.get_model("all_3"))
 
 from markov.sentence_generator import generate_random_sentence
 
