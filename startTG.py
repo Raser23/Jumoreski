@@ -22,8 +22,6 @@ def start(message):
 def send_anek(message):
     bot.send_message(message.chat.id, aneks.get()["text"])
 
-
-
 @bot.message_handler(commands = ['predict'])
 def pred(message):
     bot.reply_to(message,predicter.Answer(message));
@@ -59,9 +57,6 @@ def send_anek(message):
 def default_answer(message):
     bot.send_message(message.chat.id, aneks.get()["text"])
 
-
-#server handlers
-
 @server.route("/bot", methods=['POST'])
 def get_message():
     s = request.stream.read().decode("utf-8")
@@ -87,16 +82,10 @@ import testVK
 
 testVK.start(Debugger.send_debug)
 
-#import Anekdotes
-
 import VKBOT.StatsUpdater
 print("Stats Updater +")
-import NotSleeping
+#import NotSleeping
 print("Preventing Sleep +")
-
-#from VKBOT.LongPollGroup import start_long_poll
-#start_long_poll()
-print("Long Polling +")
 
 if int(config.WH) == 1:
     print("Webhook setted")
