@@ -16,10 +16,12 @@ Debugger.Start(bot.send_message)
 
 @bot.message_handler(commands=['start'])
 def start(message):
+    Debugger.debug(message)
     bot.reply_to(message, 'Hello, ' + message.from_user.first_name)
 
 @bot.message_handler(commands=['anekdot'])
 def send_anek(message):
+    Debugger.debug(message)
     bot.send_message(message.chat.id, aneks.get()["text"])
 
 @bot.message_handler(commands = ['predict'])
@@ -28,6 +30,7 @@ def pred(message):
 
 @bot.message_handler(regexp="/generate")
 def generate(message):
+    Debugger.debug(message)
     bot.send_message(message.chat.id, aneks.get()["text"])
 
 
