@@ -38,7 +38,7 @@ REPORTTIME = 60 * 60 * 24
 
 
 UPDATETIME = 60 * 10
-HOST = 'http://37.195.57.53'
+HOST = 'https://37.195.57.53'
 
 #Collection names
 collections = {}
