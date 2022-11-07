@@ -78,9 +78,9 @@ def webhook():
 def wakeup():
     return "Never sleeps", 200
 
-import testVK
+#import testVK
 
-testVK.start(Debugger.send_debug)
+#testVK.start(Debugger.send_debug)
 
 #import VKBOT.StatsUpdater
 #print("Stats Updater +")
