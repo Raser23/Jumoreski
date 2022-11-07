@@ -90,7 +90,7 @@ def wakeup():
 if int(config.WH) == 1:
     print("Webhook setted")
     webhook()
-    server.run(host="0.0.0.0", port=os.environ.get('PORT', 5000))
+    server.run(host="0.0.0.0", port=os.environ.get('PORT', 8080))
     server = Flask(__name__)
 else:
     print("Polling")
