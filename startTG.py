@@ -74,27 +74,23 @@ def get_message():
 @server.route("/")
 def webhook():
     bot.remove_webhook()
-    bot.set_webhook(url=config.HOST +"/bot")
+    import requests
+    import json
+    response = json.loads(requests.get("http://localhost:4040/api/tunnels").text)
+    print(response)
+    ngrokUrl = response["tunnels"][0]["public_url"]
+    print(bot.set_webhook(url=ngrokUrl +"/bot"))
     return "ok", 200
 
 @server.route("/wakeup")
 def wakeup():
     return "Never sleeps", 200
 
-#import testVK
-
-#testVK.start(Debugger.send_debug)
-
-#import VKBOT.StatsUpdater
-#print("Stats Updater +")
-#import NotSleeping
-#print("Preventing Sleep +")
-
 if int(config.WH) == 1:
     print("Webhook setted")
     webhook()
     server.run(host="0.0.0.0", port=os.environ.get('PORT', 8080))
-    server = Flask(__name__)
+    server.debug=True
 else:
     print("Polling")
     bot.remove_webhook()

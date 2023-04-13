@@ -38,7 +38,7 @@ REPORTTIME = 60 * 60 * 24
 
 
 UPDATETIME = 60 * 10
-HOST = 'https://37.195.57.53'
+HOST = 'https://1b52-37-195-57-53.ngrok-free.app'
 
 #Collection names
 collections = {}

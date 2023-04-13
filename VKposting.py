@@ -10,10 +10,16 @@ def writer():
     while(True):
 
         if(config.VKPOSTING):
-            post(aGeneratedDB.get()["text"])
-            print("posted")
-            postDonut(aGeneratedDB.getDonut()["text"])
-            print("posted donut")
+	    try:
+                post(aGeneratedDB.get()["text"])
+                print("posted")
+            except:
+                print("post failed")
+            try:
+                postDonut(aGeneratedDB.getDonut()["text"])
+                print("posted donut")
+            except:
+                print("donut failed")
         time.sleep(config.POSTCD)
 
     pass
