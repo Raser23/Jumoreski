@@ -10,7 +10,7 @@ def writer():
     while(True):
 
         if(config.VKPOSTING):
-	    try:
+            try:
                 post(aGeneratedDB.get()["text"])
                 print("posted")
             except:
