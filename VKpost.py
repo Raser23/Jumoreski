@@ -16,6 +16,7 @@ def post(text):
 
     bot = telebot.TeleBot(CFG.TOKEN)
     bot.send_message("@neuraljumoresques", text)
+    bot.close()
 
 def postDonut(text):
     tok = CFG.VKF

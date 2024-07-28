@@ -59,4 +59,4 @@ models["lent"] = "lent_model"
 models["kal"] = "kal_model"
 
 #Ban words
-banWords = ["суиц", "выпил", "вскройс"]
+banWords = ["суиц", "выпил", "вскройс", "девств", "уби", "умер", "передоз", "волод", "владим"]

@@ -13,8 +13,9 @@ def writer():
             try:
                 post(aGeneratedDB.get()["text"])
                 print("posted")
-            except:
+            except BaseException as err:
                 print("post failed")
+                print(err)
             try:
                 postDonut(aGeneratedDB.getDonut()["text"])
                 print("posted donut")
